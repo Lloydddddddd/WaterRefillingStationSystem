@@ -37,6 +37,10 @@
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButtonLogIn = new DevExpress.XtraEditors.SimpleButton();
             this.btnPasswordReveal = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
@@ -47,9 +51,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(468, 460);
+            this.pictureBox1.Size = new System.Drawing.Size(468, 454);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -137,12 +141,80 @@
             this.btnPasswordReveal.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(136)))), ((int)(((byte)(170)))));
             this.btnPasswordReveal.Appearance.Options.UseBackColor = true;
             this.btnPasswordReveal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPasswordReveal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
+            this.btnPasswordReveal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPasswordReveal.ImageOptions.SvgImage")));
             this.btnPasswordReveal.Location = new System.Drawing.Point(832, 306);
             this.btnPasswordReveal.Name = "btnPasswordReveal";
             this.btnPasswordReveal.Size = new System.Drawing.Size(49, 37);
             this.btnPasswordReveal.TabIndex = 7;
             this.btnPasswordReveal.Click += new System.EventHandler(this.btnPasswordReveal_Click);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
+            this.simpleButton1.Appearance.Options.UseBackColor = true;
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Appearance.Options.UseForeColor = true;
+            this.simpleButton1.AppearanceHovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton1.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton1.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton1.Location = new System.Drawing.Point(-13, 1);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(977, 10);
+            this.simpleButton1.TabIndex = 8;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
+            this.simpleButton2.Appearance.Options.UseBackColor = true;
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Appearance.Options.UseForeColor = true;
+            this.simpleButton2.AppearanceHovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton2.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton2.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton2.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton2.Location = new System.Drawing.Point(-13, 458);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(977, 10);
+            this.simpleButton2.TabIndex = 9;
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
+            this.simpleButton3.Appearance.Options.UseBackColor = true;
+            this.simpleButton3.Appearance.Options.UseFont = true;
+            this.simpleButton3.Appearance.Options.UseForeColor = true;
+            this.simpleButton3.AppearanceHovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton3.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton3.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton3.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton3.Location = new System.Drawing.Point(948, 12);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(16, 446);
+            this.simpleButton3.TabIndex = 10;
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
+            this.simpleButton4.Appearance.Options.UseBackColor = true;
+            this.simpleButton4.Appearance.Options.UseFont = true;
+            this.simpleButton4.Appearance.Options.UseForeColor = true;
+            this.simpleButton4.AppearanceHovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton4.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton4.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButton4.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton4.Location = new System.Drawing.Point(-5, 12);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(16, 446);
+            this.simpleButton4.TabIndex = 11;
             // 
             // FormLogIn
             // 
@@ -150,7 +222,11 @@
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 459);
+            this.ClientSize = new System.Drawing.Size(960, 470);
+            this.Controls.Add(this.simpleButton4);
+            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.btnPasswordReveal);
             this.Controls.Add(this.simpleButtonLogIn);
             this.Controls.Add(this.textEdit4);
@@ -183,5 +259,9 @@
         private DevExpress.XtraEditors.TextEdit textEdit4;
         private DevExpress.XtraEditors.SimpleButton simpleButtonLogIn;
         private DevExpress.XtraEditors.SimpleButton btnPasswordReveal;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
     }
 }
