@@ -63,10 +63,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(12, 12);
+            this.gridControl1.Location = new System.Drawing.Point(16, 16);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1130, 619);
+            this.gridControl1.Size = new System.Drawing.Size(1122, 603);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -87,6 +87,8 @@
             // 
             // gridColumn1
             // 
+            this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn1.Caption = "ID No.";
             this.gridColumn1.MinWidth = 25;
             this.gridColumn1.Name = "gridColumn1";
@@ -96,6 +98,8 @@
             // 
             // gridColumn2
             // 
+            this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn2.Caption = "Name";
             this.gridColumn2.MinWidth = 25;
             this.gridColumn2.Name = "gridColumn2";
@@ -105,6 +109,8 @@
             // 
             // gridColumn3
             // 
+            this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn3.Caption = "Contact No.";
             this.gridColumn3.MinWidth = 25;
             this.gridColumn3.Name = "gridColumn3";
@@ -114,6 +120,8 @@
             // 
             // gridColumn4
             // 
+            this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn4.Caption = "Address";
             this.gridColumn4.MinWidth = 25;
             this.gridColumn4.Name = "gridColumn4";
@@ -142,24 +150,24 @@
             this.layoutControlItem1.Control = this.gridControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1134, 623);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1128, 609);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(188, 623);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(187, 609);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(780, 80);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(776, 88);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButton1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(968, 623);
+            this.layoutControlItem2.Location = new System.Drawing.Point(963, 609);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(166, 40);
+            this.layoutControlItem2.Size = new System.Drawing.Size(165, 44);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
@@ -178,9 +186,9 @@
             this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
             this.simpleButton1.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(980, 635);
+            this.simpleButton1.Location = new System.Drawing.Point(979, 625);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(162, 36);
+            this.simpleButton1.Size = new System.Drawing.Size(159, 38);
             this.simpleButton1.StyleController = this.layoutControl1;
             this.simpleButton1.TabIndex = 7;
             this.simpleButton1.Text = "Edit";
@@ -218,9 +226,9 @@
             this.simpleButton3.AppearancePressed.Options.UseFont = true;
             this.simpleButton3.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(12, 657);
+            this.simpleButton3.Location = new System.Drawing.Point(16, 649);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(184, 36);
+            this.simpleButton3.Size = new System.Drawing.Size(181, 38);
             this.simpleButton3.StyleController = this.layoutControl1;
             this.simpleButton3.TabIndex = 9;
             this.simpleButton3.Text = "Add New Customer";
@@ -240,9 +248,9 @@
             this.simpleButton2.AppearancePressed.Options.UseBackColor = true;
             this.simpleButton2.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(980, 675);
+            this.simpleButton2.Location = new System.Drawing.Point(979, 669);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(162, 36);
+            this.simpleButton2.Size = new System.Drawing.Size(159, 38);
             this.simpleButton2.StyleController = this.layoutControl1;
             this.simpleButton2.TabIndex = 8;
             this.simpleButton2.Text = "Remove";
@@ -250,45 +258,48 @@
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButton2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(968, 663);
+            this.layoutControlItem4.Location = new System.Drawing.Point(963, 653);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(166, 40);
+            this.layoutControlItem4.Size = new System.Drawing.Size(165, 44);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 623);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 609);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(188, 22);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(187, 24);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 685);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 677);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(188, 18);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(187, 20);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.simpleButton3;
-            this.layoutControlItem5.Location = new System.Drawing.Point(0, 645);
+            this.layoutControlItem5.Location = new System.Drawing.Point(0, 633);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(188, 40);
+            this.layoutControlItem5.Size = new System.Drawing.Size(187, 44);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
             // 
             // FormCustomerList
             // 
+            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 723);
             this.Controls.Add(this.layoutControl1);
+            this.HtmlText = "Customer List ";
+            this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("FormCustomerList.IconOptions.SvgImage")));
             this.Name = "FormCustomerList";
-            this.Text = "FormCustomerList";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();

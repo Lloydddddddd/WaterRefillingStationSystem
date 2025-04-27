@@ -62,7 +62,7 @@
             // 
             this.btnForDelivery.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.btnForDelivery.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForDelivery.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.btnForDelivery.Appearance.ForeColor = System.Drawing.Color.White;
             this.btnForDelivery.Appearance.Options.UseBackColor = true;
             this.btnForDelivery.Appearance.Options.UseFont = true;
             this.btnForDelivery.Appearance.Options.UseForeColor = true;
@@ -108,14 +108,19 @@
             // 
             // FormWalkin_ForDeliveryButtons
             // 
+            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.Appearance.ForeColor = System.Drawing.Color.White;
+            this.Appearance.Options.UseBackColor = true;
+            this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(427, 420);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnForDelivery);
             this.Controls.Add(this.btnWalkin);
+            this.HtmlText = "Delivery";
+            this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("FormWalkin_ForDeliveryButtons.IconOptions.SvgImage")));
             this.Name = "FormWalkin_ForDeliveryButtons";
-            this.Text = "FormWalkin_ForDeliveryButtons";
             this.ResumeLayout(false);
 
         }

@@ -270,6 +270,8 @@
             // 
             // MainForm2
             // 
+            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 714);
@@ -278,7 +280,7 @@
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm2.IconOptions.Image")));
             this.Name = "MainForm2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm2";
+            this.Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelBody)).EndInit();
             this.ResumeLayout(false);

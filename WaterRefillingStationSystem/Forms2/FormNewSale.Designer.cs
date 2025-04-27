@@ -215,7 +215,7 @@
             // 
             this.layoutControlItem7.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem7.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem7.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem7.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem7.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem7.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem7.AppearanceItemCaption.Options.UseForeColor = true;
@@ -277,7 +277,9 @@
             this.checkEditListInCustomerDebt.Location = new System.Drawing.Point(26, 103);
             this.checkEditListInCustomerDebt.Name = "checkEditListInCustomerDebt";
             this.checkEditListInCustomerDebt.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkEditListInCustomerDebt.Properties.Appearance.ForeColor = System.Drawing.Color.SlateGray;
             this.checkEditListInCustomerDebt.Properties.Appearance.Options.UseFont = true;
+            this.checkEditListInCustomerDebt.Properties.Appearance.Options.UseForeColor = true;
             this.checkEditListInCustomerDebt.Properties.Caption = "List in Customer Debt";
             this.checkEditListInCustomerDebt.Size = new System.Drawing.Size(286, 26);
             this.checkEditListInCustomerDebt.StyleController = this.layoutControl1;
@@ -572,7 +574,7 @@
             // 
             this.layoutControlItem10.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem10.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem10.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem10.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem10.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem10.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem10.AppearanceItemCaption.Options.UseForeColor = true;
@@ -608,7 +610,7 @@
             // 
             this.layoutControlItem3.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem3.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem3.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem3.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem3.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem3.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem3.AppearanceItemCaption.Options.UseForeColor = true;
@@ -626,7 +628,7 @@
             // 
             this.layoutControlItem4.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem4.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem4.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem4.AppearanceItemCaption.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
@@ -765,7 +767,7 @@
             // 
             this.layoutControlItem9.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem9.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem9.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem9.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem9.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem9.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem9.AppearanceItemCaption.Options.UseForeColor = true;
@@ -784,7 +786,7 @@
             // 
             this.layoutControlItem6.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem6.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem6.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(39)))), ((int)(((byte)(53)))));
+            this.layoutControlItem6.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem6.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem6.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem6.AppearanceItemCaption.Options.UseForeColor = true;
@@ -915,8 +917,10 @@
             // 
             this.layoutControlItem1.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem1.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.layoutControlItem1.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem1.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem1.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem1.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem1.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem1.Control = this.comboBoxEditSelectCustomer;
@@ -955,8 +959,10 @@
             // 
             this.layoutControlItem11.AppearanceItemCaption.BackColor = System.Drawing.Color.Transparent;
             this.layoutControlItem11.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.layoutControlItem11.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
             this.layoutControlItem11.AppearanceItemCaption.Options.UseBackColor = true;
             this.layoutControlItem11.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem11.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem11.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem11.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem11.Control = this.comboBoxEditSelectOption;
@@ -978,12 +984,14 @@
             // 
             // FormNewSale
             // 
-            this.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 732);
             this.Controls.Add(this.layoutControl1);
+            this.HtmlText = "New Sale";
+            this.IconOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("FormNewSale.IconOptions.LargeImage")));
             this.Name = "FormNewSale";
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();

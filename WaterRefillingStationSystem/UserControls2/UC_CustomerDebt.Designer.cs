@@ -104,6 +104,8 @@
             // 
             // gridColumn1
             // 
+            this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn1.Caption = "ID No.";
             this.gridColumn1.MinWidth = 25;
             this.gridColumn1.Name = "gridColumn1";
@@ -113,6 +115,8 @@
             // 
             // gridColumn2
             // 
+            this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn2.Caption = "Customer Name";
             this.gridColumn2.MinWidth = 25;
             this.gridColumn2.Name = "gridColumn2";
@@ -122,6 +126,8 @@
             // 
             // gridColumn7
             // 
+            this.gridColumn7.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn7.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn7.Caption = "Order Type";
             this.gridColumn7.MinWidth = 25;
             this.gridColumn7.Name = "gridColumn7";
@@ -131,6 +137,8 @@
             // 
             // gridColumn3
             // 
+            this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn3.Caption = "Item Name";
             this.gridColumn3.MinWidth = 25;
             this.gridColumn3.Name = "gridColumn3";
@@ -142,6 +150,8 @@
             // 
             this.gridColumn4.AppearanceCell.Options.UseTextOptions = true;
             this.gridColumn4.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn4.Caption = "Quantity";
             this.gridColumn4.MinWidth = 25;
             this.gridColumn4.Name = "gridColumn4";
@@ -153,6 +163,8 @@
             // 
             this.gridColumn5.AppearanceCell.Options.UseTextOptions = true;
             this.gridColumn5.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            this.gridColumn5.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn5.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn5.Caption = "Unit Price";
             this.gridColumn5.MinWidth = 25;
             this.gridColumn5.Name = "gridColumn5";
@@ -162,6 +174,8 @@
             // 
             // gridColumn6
             // 
+            this.gridColumn6.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn6.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn6.Caption = "Order Date";
             this.gridColumn6.MinWidth = 25;
             this.gridColumn6.Name = "gridColumn6";
@@ -171,6 +185,8 @@
             // 
             // gridColumn8
             // 
+            this.gridColumn8.AppearanceHeader.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.gridColumn8.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn8.Caption = "Total Price";
             this.gridColumn8.MinWidth = 25;
             this.gridColumn8.Name = "gridColumn8";
@@ -232,6 +248,8 @@
             // 
             // Root
             // 
+            this.Root.AppearanceGroup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(255)))));
+            this.Root.AppearanceGroup.Options.UseBackColor = true;
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
             this.Root.GroupBordersVisible = false;
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
