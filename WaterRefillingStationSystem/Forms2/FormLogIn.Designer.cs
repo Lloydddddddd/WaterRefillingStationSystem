@@ -62,7 +62,7 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(709, 171);
+            this.labelControl1.Location = new System.Drawing.Point(707, 146);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(37, 33);
             this.labelControl1.TabIndex = 1;
@@ -74,7 +74,7 @@
             this.labelControl2.Appearance.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(624, 210);
+            this.labelControl2.Location = new System.Drawing.Point(622, 185);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(216, 33);
             this.labelControl2.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(652, 45);
+            this.pictureBox2.Location = new System.Drawing.Point(650, 20);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(148, 131);
             this.pictureBox2.TabIndex = 3;
@@ -92,7 +92,7 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(635, 275);
+            this.textEdit1.Location = new System.Drawing.Point(633, 250);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(136)))), ((int)(((byte)(180)))));
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
@@ -103,7 +103,7 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(635, 336);
+            this.textEdit2.Location = new System.Drawing.Point(633, 311);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(136)))), ((int)(((byte)(180)))));
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
@@ -114,7 +114,7 @@
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(635, 275);
+            this.textEdit3.Location = new System.Drawing.Point(633, 250);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(136)))), ((int)(((byte)(180)))));
             this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
@@ -125,7 +125,7 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(635, 336);
+            this.textEdit4.Location = new System.Drawing.Point(633, 311);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(136)))), ((int)(((byte)(180)))));
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
@@ -136,9 +136,13 @@
             // 
             // simpleButtonLogIn
             // 
-            this.simpleButtonLogIn.Location = new System.Drawing.Point(689, 383);
+            this.simpleButtonLogIn.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonLogIn.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Question;
+            this.simpleButtonLogIn.Appearance.Options.UseFont = true;
+            this.simpleButtonLogIn.Appearance.Options.UseForeColor = true;
+            this.simpleButtonLogIn.Location = new System.Drawing.Point(663, 369);
             this.simpleButtonLogIn.Name = "simpleButtonLogIn";
-            this.simpleButtonLogIn.Size = new System.Drawing.Size(94, 29);
+            this.simpleButtonLogIn.Size = new System.Drawing.Size(140, 37);
             this.simpleButtonLogIn.TabIndex = 6;
             this.simpleButtonLogIn.Text = "Click Me";
             this.simpleButtonLogIn.Click += new System.EventHandler(this.simpleButtonLogIn_Click);
