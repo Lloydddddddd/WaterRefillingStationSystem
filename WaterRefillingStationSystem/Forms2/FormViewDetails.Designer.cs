@@ -117,10 +117,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(262, 42);
+            this.gridControl1.Location = new System.Drawing.Point(262, 47);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(669, 608);
+            this.gridControl1.Size = new System.Drawing.Size(669, 603);
             this.gridControl1.TabIndex = 8;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -141,6 +141,8 @@
             // 
             // gridColumn1
             // 
+            this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gridColumn1.AppearanceCell.Options.UseFont = true;
             this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn1.Caption = "Item Name";
@@ -152,6 +154,8 @@
             // 
             // gridColumn2
             // 
+            this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gridColumn2.AppearanceCell.Options.UseFont = true;
             this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn2.Caption = "Quantity";
@@ -163,6 +167,8 @@
             // 
             // gridColumn3
             // 
+            this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gridColumn3.AppearanceCell.Options.UseFont = true;
             this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn3.Caption = "Unit Price";
@@ -174,6 +180,8 @@
             // 
             // gridColumn4
             // 
+            this.gridColumn4.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gridColumn4.AppearanceCell.Options.UseFont = true;
             this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn4.Caption = "Total Price";
@@ -185,25 +193,31 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(16, 240);
+            this.textEdit4.Location = new System.Drawing.Point(16, 252);
             this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(240, 34);
+            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit4.Properties.Appearance.Options.UseFont = true;
+            this.textEdit4.Size = new System.Drawing.Size(240, 38);
             this.textEdit4.StyleController = this.layoutControl1;
             this.textEdit4.TabIndex = 7;
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(16, 174);
+            this.textEdit3.Location = new System.Drawing.Point(16, 182);
             this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(240, 34);
+            this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit3.Properties.Appearance.Options.UseFont = true;
+            this.textEdit3.Size = new System.Drawing.Size(240, 38);
             this.textEdit3.StyleController = this.layoutControl1;
             this.textEdit3.TabIndex = 6;
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(16, 108);
+            this.textEdit2.Location = new System.Drawing.Point(16, 112);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(240, 34);
+            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit2.Properties.Appearance.Options.UseFont = true;
+            this.textEdit2.Size = new System.Drawing.Size(240, 38);
             this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 5;
             // 
@@ -211,7 +225,9 @@
             // 
             this.textEdit1.Location = new System.Drawing.Point(16, 42);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(240, 34);
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Size = new System.Drawing.Size(240, 38);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             // 
@@ -243,10 +259,10 @@
             this.layoutControlItem1.Control = this.textEdit1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(246, 66);
+            this.layoutControlItem1.Size = new System.Drawing.Size(246, 70);
             this.layoutControlItem1.Text = "ID Number:";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(114, 20);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(136, 20);
             // 
             // layoutControlItem2
             // 
@@ -255,12 +271,12 @@
             this.layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem2.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem2.Control = this.textEdit2;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 66);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 70);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(246, 66);
+            this.layoutControlItem2.Size = new System.Drawing.Size(246, 70);
             this.layoutControlItem2.Text = "Customer Name:";
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(114, 20);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(136, 20);
             // 
             // layoutControlItem3
             // 
@@ -269,28 +285,30 @@
             this.layoutControlItem3.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem3.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem3.Control = this.textEdit3;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 132);
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 140);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(246, 66);
+            this.layoutControlItem3.Size = new System.Drawing.Size(246, 70);
             this.layoutControlItem3.Text = "Order Date:";
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(114, 20);
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(136, 20);
             // 
             // layoutControlItem5
             // 
-            this.layoutControlItem5.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutControlItem5.AppearanceItemCaption.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(38)))), ((int)(((byte)(120)))));
+            this.layoutControlItem5.AppearanceItemCaption.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.layoutControlItem5.AppearanceItemCaption.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.layoutControlItem5.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem5.AppearanceItemCaption.Options.UseForeColor = true;
+            this.layoutControlItem5.AppearanceItemCaption.Options.UseTextOptions = true;
+            this.layoutControlItem5.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem5.AppearanceItemCaptionDisabled.ForeColor = System.Drawing.Color.Transparent;
             this.layoutControlItem5.AppearanceItemCaptionDisabled.Options.UseForeColor = true;
             this.layoutControlItem5.Control = this.gridControl1;
             this.layoutControlItem5.Location = new System.Drawing.Point(246, 0);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(675, 640);
-            this.layoutControlItem5.Text = "Item Purchased:";
+            this.layoutControlItem5.Text = "ITEM PURCHASE";
             this.layoutControlItem5.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(114, 20);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(136, 25);
             // 
             // layoutControlItem4
             // 
@@ -299,19 +317,19 @@
             this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem4.Control = this.textEdit4;
-            this.layoutControlItem4.Location = new System.Drawing.Point(0, 198);
+            this.layoutControlItem4.Location = new System.Drawing.Point(0, 210);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(246, 66);
+            this.layoutControlItem4.Size = new System.Drawing.Size(246, 70);
             this.layoutControlItem4.Text = "Total Price:";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top;
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(114, 20);
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(136, 20);
             // 
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 264);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 280);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(246, 440);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(246, 424);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2

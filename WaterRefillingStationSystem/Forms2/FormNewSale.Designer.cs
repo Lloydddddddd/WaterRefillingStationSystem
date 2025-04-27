@@ -467,8 +467,10 @@
             // 
             this.textEditTotalPrice.Location = new System.Drawing.Point(65, 447);
             this.textEditTotalPrice.Name = "textEditTotalPrice";
+            this.textEditTotalPrice.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.textEditTotalPrice.Properties.Appearance.Options.UseFont = true;
             this.textEditTotalPrice.Properties.AutoHeight = false;
-            this.textEditTotalPrice.Size = new System.Drawing.Size(215, 37);
+            this.textEditTotalPrice.Size = new System.Drawing.Size(215, 42);
             this.textEditTotalPrice.StyleController = this.layoutControl1;
             this.textEditTotalPrice.TabIndex = 13;
             this.textEditTotalPrice.EditValueChanged += new System.EventHandler(this.textEditTotalPrice_EditValueChanged);
@@ -517,7 +519,7 @@
             this.simpleButtonAddNewCustomer.Appearance.Options.UseFont = true;
             this.simpleButtonAddNewCustomer.Appearance.Options.UseForeColor = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButtonAddNewCustomer.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonAddNewCustomer.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.simpleButtonAddNewCustomer.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonAddNewCustomer.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.Options.UseFont = true;
@@ -584,7 +586,7 @@
             this.layoutControlItem10.Location = new System.Drawing.Point(45, 398);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Padding = new DevExpress.XtraLayout.Utils.Padding(7, 7, 7, 7);
-            this.layoutControlItem10.Size = new System.Drawing.Size(229, 80);
+            this.layoutControlItem10.Size = new System.Drawing.Size(229, 85);
             this.layoutControlItem10.Text = "Total Price";
             this.layoutControlItem10.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem10.TextSize = new System.Drawing.Size(128, 23);
@@ -729,7 +731,7 @@
             this.emptySpaceItem5.AllowHotTrack = false;
             this.emptySpaceItem5.Location = new System.Drawing.Point(274, 398);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
-            this.emptySpaceItem5.Size = new System.Drawing.Size(28, 80);
+            this.emptySpaceItem5.Size = new System.Drawing.Size(28, 85);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem15
@@ -737,7 +739,7 @@
             this.emptySpaceItem15.AllowHotTrack = false;
             this.emptySpaceItem15.Location = new System.Drawing.Point(10, 398);
             this.emptySpaceItem15.Name = "emptySpaceItem15";
-            this.emptySpaceItem15.Size = new System.Drawing.Size(35, 80);
+            this.emptySpaceItem15.Size = new System.Drawing.Size(35, 85);
             this.emptySpaceItem15.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem2
@@ -884,9 +886,9 @@
             // emptySpaceItem30
             // 
             this.emptySpaceItem30.AllowHotTrack = false;
-            this.emptySpaceItem30.Location = new System.Drawing.Point(10, 478);
+            this.emptySpaceItem30.Location = new System.Drawing.Point(10, 483);
             this.emptySpaceItem30.Name = "emptySpaceItem30";
-            this.emptySpaceItem30.Size = new System.Drawing.Size(292, 27);
+            this.emptySpaceItem30.Size = new System.Drawing.Size(292, 22);
             this.emptySpaceItem30.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem33

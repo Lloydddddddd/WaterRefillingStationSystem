@@ -84,11 +84,13 @@
             // 
             // comboBoxEdit3
             // 
-            this.comboBoxEdit3.Location = new System.Drawing.Point(16, 205);
+            this.comboBoxEdit3.Location = new System.Drawing.Point(16, 213);
             this.comboBoxEdit3.Name = "comboBoxEdit3";
+            this.comboBoxEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.comboBoxEdit3.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit3.Size = new System.Drawing.Size(457, 34);
+            this.comboBoxEdit3.Size = new System.Drawing.Size(457, 38);
             this.comboBoxEdit3.StyleController = this.layoutControl1;
             this.comboBoxEdit3.TabIndex = 9;
             // 
@@ -113,7 +115,7 @@
             this.simpleButton2.AppearancePressed.Options.UseFont = true;
             this.simpleButton2.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(165, 355);
+            this.simpleButton2.Location = new System.Drawing.Point(165, 371);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(150, 38);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -124,9 +126,11 @@
             // 
             this.comboBoxEdit2.Location = new System.Drawing.Point(16, 73);
             this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(457, 34);
+            this.comboBoxEdit2.Size = new System.Drawing.Size(457, 38);
             this.comboBoxEdit2.StyleController = this.layoutControl1;
             this.comboBoxEdit2.TabIndex = 7;
             // 
@@ -151,7 +155,7 @@
             this.simpleButton1.AppearancePressed.Options.UseFont = true;
             this.simpleButton1.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(165, 311);
+            this.simpleButton1.Location = new System.Drawing.Point(165, 327);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(150, 38);
             this.simpleButton1.StyleController = this.layoutControl1;
@@ -160,19 +164,23 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(16, 271);
+            this.textEdit1.Location = new System.Drawing.Point(16, 283);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(457, 34);
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Size = new System.Drawing.Size(457, 38);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 5;
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(16, 139);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(16, 143);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(457, 34);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(457, 38);
             this.comboBoxEdit1.StyleController = this.layoutControl1;
             this.comboBoxEdit1.TabIndex = 4;
             // 
@@ -202,9 +210,9 @@
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem1.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem1.Control = this.comboBoxEdit1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 97);
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 101);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(463, 66);
+            this.layoutControlItem1.Size = new System.Drawing.Size(463, 70);
             this.layoutControlItem1.Text = "Customer Name:";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(114, 20);
@@ -224,9 +232,9 @@
             this.layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem2.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem2.Control = this.textEdit1;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 229);
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 241);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(463, 66);
+            this.layoutControlItem2.Size = new System.Drawing.Size(463, 70);
             this.layoutControlItem2.Text = "Quantity:";
             this.layoutControlItem2.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem2.TextSize = new System.Drawing.Size(114, 20);
@@ -234,7 +242,7 @@
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.simpleButton1;
-            this.layoutControlItem3.Location = new System.Drawing.Point(149, 295);
+            this.layoutControlItem3.Location = new System.Drawing.Point(149, 311);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(156, 44);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -243,7 +251,7 @@
             // emptySpaceItem3
             // 
             this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 295);
+            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 311);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
             this.emptySpaceItem3.Size = new System.Drawing.Size(149, 88);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
@@ -251,7 +259,7 @@
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(305, 295);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(305, 311);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(158, 88);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -265,7 +273,7 @@
             this.layoutControlItem4.Control = this.comboBoxEdit2;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 31);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(463, 66);
+            this.layoutControlItem4.Size = new System.Drawing.Size(463, 70);
             this.layoutControlItem4.Text = "Select Option:";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(114, 20);
@@ -273,7 +281,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.simpleButton2;
-            this.layoutControlItem5.Location = new System.Drawing.Point(149, 339);
+            this.layoutControlItem5.Location = new System.Drawing.Point(149, 355);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(156, 44);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
@@ -286,9 +294,9 @@
             this.layoutControlItem6.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem6.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem6.Control = this.comboBoxEdit3;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 163);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 171);
             this.layoutControlItem6.Name = "layoutControlItem6";
-            this.layoutControlItem6.Size = new System.Drawing.Size(463, 66);
+            this.layoutControlItem6.Size = new System.Drawing.Size(463, 70);
             this.layoutControlItem6.Text = "Item Name:";
             this.layoutControlItem6.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem6.TextSize = new System.Drawing.Size(114, 20);
@@ -296,9 +304,9 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 383);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(0, 399);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(463, 26);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(463, 10);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // FormAddDispenserRent
