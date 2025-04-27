@@ -136,10 +136,16 @@
             // 
             // simpleButtonLogIn
             // 
+            this.simpleButtonLogIn.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonLogIn.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButtonLogIn.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Question;
+            this.simpleButtonLogIn.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
+            this.simpleButtonLogIn.Appearance.Options.UseBackColor = true;
             this.simpleButtonLogIn.Appearance.Options.UseFont = true;
             this.simpleButtonLogIn.Appearance.Options.UseForeColor = true;
+            this.simpleButtonLogIn.AppearanceHovered.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButtonLogIn.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButtonLogIn.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
+            this.simpleButtonLogIn.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonLogIn.Location = new System.Drawing.Point(663, 369);
             this.simpleButtonLogIn.Name = "simpleButtonLogIn";
             this.simpleButtonLogIn.Size = new System.Drawing.Size(140, 37);

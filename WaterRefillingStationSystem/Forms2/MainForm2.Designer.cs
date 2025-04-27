@@ -260,7 +260,7 @@
             // 
             // panelBody
             // 
-            this.panelBody.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panelBody.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.panelBody.Appearance.Options.UseBackColor = true;
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBody.Location = new System.Drawing.Point(294, 0);
