@@ -207,6 +207,8 @@
             // 
             // gridColumn4
             // 
+            this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn4.Caption = "Item Name";
             this.gridColumn4.MinWidth = 25;
             this.gridColumn4.Name = "gridColumn4";
@@ -216,6 +218,8 @@
             // 
             // gridColumn6
             // 
+            this.gridColumn6.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn6.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn6.Caption = "Unit Price";
             this.gridColumn6.MinWidth = 25;
             this.gridColumn6.Name = "gridColumn6";
@@ -225,6 +229,8 @@
             // 
             // gridColumn5
             // 
+            this.gridColumn5.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn5.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn5.Caption = "Available Stocks";
             this.gridColumn5.MinWidth = 25;
             this.gridColumn5.Name = "gridColumn5";
@@ -284,7 +290,7 @@
             // 
             this.TabPageContainerSalesRecords.Controls.Add(this.layoutControl3);
             this.TabPageContainerSalesRecords.Name = "TabPageContainerSalesRecords";
-            this.TabPageContainerSalesRecords.Size = new System.Drawing.Size(1157, 675);
+            this.TabPageContainerSalesRecords.Size = new System.Drawing.Size(1151, 668);
             this.TabPageContainerSalesRecords.Text = "                      Container Sales Records                       ";
             // 
             // layoutControl3
@@ -294,7 +300,7 @@
             this.layoutControl3.Location = new System.Drawing.Point(0, 0);
             this.layoutControl3.Name = "layoutControl3";
             this.layoutControl3.Root = this.layoutControlGroup2;
-            this.layoutControl3.Size = new System.Drawing.Size(1157, 675);
+            this.layoutControl3.Size = new System.Drawing.Size(1151, 668);
             this.layoutControl3.TabIndex = 0;
             this.layoutControl3.Text = "layoutControl3";
             // 
@@ -303,7 +309,7 @@
             this.gridControl1.Location = new System.Drawing.Point(16, 16);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1125, 643);
+            this.gridControl1.Size = new System.Drawing.Size(1119, 636);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -365,7 +371,7 @@
             this.layoutControlGroup2.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem9});
             this.layoutControlGroup2.Name = "layoutControlGroup2";
-            this.layoutControlGroup2.Size = new System.Drawing.Size(1157, 675);
+            this.layoutControlGroup2.Size = new System.Drawing.Size(1151, 668);
             this.layoutControlGroup2.TextVisible = false;
             // 
             // layoutControlItem9
@@ -373,7 +379,7 @@
             this.layoutControlItem9.Control = this.gridControl1;
             this.layoutControlItem9.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(1131, 649);
+            this.layoutControlItem9.Size = new System.Drawing.Size(1125, 642);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
             // 
