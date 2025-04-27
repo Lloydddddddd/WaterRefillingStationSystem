@@ -14,8 +14,8 @@ namespace WaterRefillingStationSystem.Forms2
 
         private void FormLogIn_Load(object sender, EventArgs e)
         {
-            bool isPasswordHidden = textEdit4.Properties.PasswordChar == '*';
-            btnPasswordReveal.Text = "Show Password";
+            textEdit4.Properties.UseSystemPasswordChar = false; 
+            btnPasswordReveal.Text = "Hide Password";           
         }
 
         private void simpleButtonLogIn_Click(object sender, EventArgs e)
@@ -32,9 +32,9 @@ namespace WaterRefillingStationSystem.Forms2
 
         private void TogglePasswordVisibility()
         {
-            bool isPasswordHidden = textEdit4.Properties.UseSystemPasswordChar;
-            textEdit4.Properties.UseSystemPasswordChar = !isPasswordHidden;
-            btnPasswordReveal.Text = isPasswordHidden ? "Hide Password" : "Show Password";
+            bool isPasswordVisible = !textEdit4.Properties.UseSystemPasswordChar;
+            textEdit4.Properties.UseSystemPasswordChar = isPasswordVisible; 
+            btnPasswordReveal.Text = isPasswordVisible ? "Show Password" : "Hide Password";
         }
     }
 }
