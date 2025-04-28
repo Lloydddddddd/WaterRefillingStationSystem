@@ -71,5 +71,16 @@ namespace WaterRefillingStationSystem.Forms
                 return salesReport.ToList();
             }
         }
+
+        private void aciCustomerList_Click(object sender, EventArgs e)
+        {
+            FormCustomerList aci_CustomerList= new FormCustomerList();
+            panelBody.Controls.Clear();
+            aci_CustomerList.Dock = DockStyle.Fill;
+            panelBody.Controls.Add(aci_CustomerList);
+
+            
+
+        }
     }
 }

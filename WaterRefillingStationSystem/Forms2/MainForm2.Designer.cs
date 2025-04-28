@@ -178,6 +178,7 @@
             this.aciCustomerList.Name = "aciCustomerList";
             this.aciCustomerList.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciCustomerList.Text = "Customer List";
+            this.aciCustomerList.Click += new System.EventHandler(this.aciCustomerList_Click);
             // 
             // aciCustomerDebt
             // 
@@ -280,7 +281,7 @@
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm2.IconOptions.Image")));
             this.Name = "MainForm2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = "s";
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelBody)).EndInit();
             this.ResumeLayout(false);
