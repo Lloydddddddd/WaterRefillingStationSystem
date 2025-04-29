@@ -119,7 +119,7 @@
             // 
             // simpleButtonLogIn
             // 
-            this.simpleButtonLogIn.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
+            this.simpleButtonLogIn.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(190)))));
             this.simpleButtonLogIn.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonLogIn.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.simpleButtonLogIn.Appearance.Options.UseBackColor = true;
@@ -150,7 +150,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(225)))));
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.simpleButton1.Appearance.Options.UseBackColor = true;
@@ -160,14 +160,14 @@
             this.simpleButton1.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButton1.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
             this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton1.Location = new System.Drawing.Point(-13, 1);
+            this.simpleButton1.Location = new System.Drawing.Point(-13, -9);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(977, 10);
+            this.simpleButton1.Size = new System.Drawing.Size(977, 22);
             this.simpleButton1.TabIndex = 8;
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(225)))));
             this.simpleButton2.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.simpleButton2.Appearance.Options.UseBackColor = true;
@@ -177,14 +177,14 @@
             this.simpleButton2.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButton2.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
             this.simpleButton2.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton2.Location = new System.Drawing.Point(-13, 458);
+            this.simpleButton2.Location = new System.Drawing.Point(-13, 457);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(977, 10);
+            this.simpleButton2.Size = new System.Drawing.Size(977, 14);
             this.simpleButton2.TabIndex = 9;
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(225)))));
             this.simpleButton3.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.simpleButton3.Appearance.Options.UseBackColor = true;
@@ -194,14 +194,14 @@
             this.simpleButton3.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButton3.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
             this.simpleButton3.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton3.Location = new System.Drawing.Point(948, 12);
+            this.simpleButton3.Location = new System.Drawing.Point(948, -2);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(16, 446);
+            this.simpleButton3.Size = new System.Drawing.Size(16, 474);
             this.simpleButton3.TabIndex = 10;
             // 
             // simpleButton4
             // 
-            this.simpleButton4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(230)))));
+            this.simpleButton4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(225)))));
             this.simpleButton4.Appearance.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.simpleButton4.Appearance.Options.UseBackColor = true;
@@ -211,18 +211,18 @@
             this.simpleButton4.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButton4.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
             this.simpleButton4.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton4.Location = new System.Drawing.Point(-5, 12);
+            this.simpleButton4.Location = new System.Drawing.Point(-5, -2);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(16, 446);
+            this.simpleButton4.Size = new System.Drawing.Size(20, 473);
             this.simpleButton4.TabIndex = 11;
             // 
             // FormLogIn
             // 
-            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(60)))), ((int)(((byte)(65)))));
+            this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(60)))), ((int)(((byte)(94)))));
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 470);
+            this.ClientSize = new System.Drawing.Size(965, 470);
             this.Controls.Add(this.simpleButton4);
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.simpleButton2);
