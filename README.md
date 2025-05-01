@@ -1,3 +1,3 @@
 ```
-This is our project for our schoo
+This is our project for our school
 ```
