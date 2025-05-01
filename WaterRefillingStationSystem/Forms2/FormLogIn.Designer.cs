@@ -95,25 +95,25 @@
             this.textEdit3.Location = new System.Drawing.Point(598, 218);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
-            this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textEdit3.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit3.Properties.Appearance.Options.UseFont = true;
             this.textEdit3.Properties.Appearance.Options.UseForeColor = true;
-            this.textEdit3.Size = new System.Drawing.Size(259, 42);
+            this.textEdit3.Size = new System.Drawing.Size(259, 38);
             this.textEdit3.TabIndex = 4;
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(598, 282);
+            this.textEdit4.Location = new System.Drawing.Point(598, 274);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
-            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
+            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit4.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textEdit4.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit4.Properties.Appearance.Options.UseFont = true;
             this.textEdit4.Properties.Appearance.Options.UseForeColor = true;
-            this.textEdit4.Size = new System.Drawing.Size(259, 42);
+            this.textEdit4.Size = new System.Drawing.Size(259, 38);
             this.textEdit4.TabIndex = 5;
             // 
             // simpleButtonLogIn
@@ -137,11 +137,11 @@
             // 
             // btnPasswordReveal
             // 
-            this.btnPasswordReveal.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
+            this.btnPasswordReveal.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(60)))), ((int)(((byte)(85)))));
             this.btnPasswordReveal.Appearance.Options.UseBackColor = true;
             this.btnPasswordReveal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPasswordReveal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPasswordReveal.ImageOptions.SvgImage")));
-            this.btnPasswordReveal.Location = new System.Drawing.Point(863, 285);
+            this.btnPasswordReveal.Location = new System.Drawing.Point(863, 276);
             this.btnPasswordReveal.Name = "btnPasswordReveal";
             this.btnPasswordReveal.Size = new System.Drawing.Size(49, 37);
             this.btnPasswordReveal.TabIndex = 7;
