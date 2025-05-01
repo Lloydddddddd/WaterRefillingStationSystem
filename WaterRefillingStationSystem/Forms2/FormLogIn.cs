@@ -36,5 +36,10 @@ namespace WaterRefillingStationSystem.Forms2
             textEdit4.Properties.UseSystemPasswordChar = isPasswordVisible; 
             btnPasswordReveal.Text = isPasswordVisible ? "Show Password" : "Hide Password";
         }
+
+        private void hyperlinkLabelControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
