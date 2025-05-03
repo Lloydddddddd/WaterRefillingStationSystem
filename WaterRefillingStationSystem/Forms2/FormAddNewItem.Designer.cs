@@ -79,7 +79,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.Root;
-            this.layoutControl1.Size = new System.Drawing.Size(401, 329);
+            this.layoutControl1.Size = new System.Drawing.Size(395, 329);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -101,13 +101,13 @@
             this.layoutControlItem7,
             this.layoutControlItem1});
             this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(380, 334);
+            this.Root.Size = new System.Drawing.Size(374, 334);
             this.Root.TextVisible = false;
             // 
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(327, 0);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(321, 0);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
             this.emptySpaceItem2.Size = new System.Drawing.Size(27, 308);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
@@ -117,13 +117,13 @@
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.Location = new System.Drawing.Point(0, 0);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(38, 308);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(37, 308);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(102, 298);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(100, 298);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
             this.emptySpaceItem4.Size = new System.Drawing.Size(147, 10);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
@@ -131,7 +131,7 @@
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(317, 0);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(311, 0);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
             this.emptySpaceItem1.Size = new System.Drawing.Size(10, 210);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
@@ -139,7 +139,7 @@
             // emptySpaceItem6
             // 
             this.emptySpaceItem6.AllowHotTrack = false;
-            this.emptySpaceItem6.Location = new System.Drawing.Point(38, 0);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(37, 0);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
             this.emptySpaceItem6.Size = new System.Drawing.Size(10, 210);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
@@ -147,26 +147,26 @@
             // emptySpaceItem9
             // 
             this.emptySpaceItem9.AllowHotTrack = false;
-            this.emptySpaceItem9.Location = new System.Drawing.Point(249, 210);
+            this.emptySpaceItem9.Location = new System.Drawing.Point(247, 210);
             this.emptySpaceItem9.Name = "emptySpaceItem9";
-            this.emptySpaceItem9.Size = new System.Drawing.Size(78, 98);
+            this.emptySpaceItem9.Size = new System.Drawing.Size(74, 98);
             this.emptySpaceItem9.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem10
             // 
             this.emptySpaceItem10.AllowHotTrack = false;
-            this.emptySpaceItem10.Location = new System.Drawing.Point(38, 210);
+            this.emptySpaceItem10.Location = new System.Drawing.Point(37, 210);
             this.emptySpaceItem10.Name = "emptySpaceItem10";
-            this.emptySpaceItem10.Size = new System.Drawing.Size(64, 98);
+            this.emptySpaceItem10.Size = new System.Drawing.Size(63, 98);
             this.emptySpaceItem10.TextSize = new System.Drawing.Size(0, 0);
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(64, 112);
+            this.textEdit3.Location = new System.Drawing.Point(63, 107);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit3.Properties.Appearance.Options.UseFont = true;
-            this.textEdit3.Size = new System.Drawing.Size(263, 38);
+            this.textEdit3.Size = new System.Drawing.Size(258, 38);
             this.textEdit3.StyleController = this.layoutControl1;
             this.textEdit3.TabIndex = 10;
             // 
@@ -191,7 +191,7 @@
             this.simpleButton3.AppearancePressed.Options.UseFont = true;
             this.simpleButton3.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(118, 270);
+            this.simpleButton3.Location = new System.Drawing.Point(116, 265);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(141, 38);
             this.simpleButton3.StyleController = this.layoutControl1;
@@ -219,7 +219,7 @@
             this.simpleButton2.AppearancePressed.Options.UseFont = true;
             this.simpleButton2.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(118, 226);
+            this.simpleButton2.Location = new System.Drawing.Point(116, 221);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(141, 38);
             this.simpleButton2.StyleController = this.layoutControl1;
@@ -228,21 +228,21 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(64, 182);
+            this.textEdit2.Location = new System.Drawing.Point(63, 177);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Size = new System.Drawing.Size(263, 38);
+            this.textEdit2.Size = new System.Drawing.Size(258, 38);
             this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 7;
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(64, 42);
+            this.textEdit1.Location = new System.Drawing.Point(63, 37);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Size = new System.Drawing.Size(263, 38);
+            this.textEdit1.Size = new System.Drawing.Size(258, 38);
             this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             // 
@@ -253,9 +253,9 @@
             this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem4.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem4.Control = this.textEdit2;
-            this.layoutControlItem4.Location = new System.Drawing.Point(48, 140);
+            this.layoutControlItem4.Location = new System.Drawing.Point(47, 140);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(269, 70);
+            this.layoutControlItem4.Size = new System.Drawing.Size(264, 70);
             this.layoutControlItem4.Text = "Available Stock:";
             this.layoutControlItem4.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(108, 20);
@@ -263,7 +263,7 @@
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.simpleButton2;
-            this.layoutControlItem5.Location = new System.Drawing.Point(102, 210);
+            this.layoutControlItem5.Location = new System.Drawing.Point(100, 210);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(147, 44);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
@@ -272,7 +272,7 @@
             // layoutControlItem6
             // 
             this.layoutControlItem6.Control = this.simpleButton3;
-            this.layoutControlItem6.Location = new System.Drawing.Point(102, 254);
+            this.layoutControlItem6.Location = new System.Drawing.Point(100, 254);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Size = new System.Drawing.Size(147, 44);
             this.layoutControlItem6.TextSize = new System.Drawing.Size(0, 0);
@@ -285,9 +285,9 @@
             this.layoutControlItem7.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem7.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem7.Control = this.textEdit3;
-            this.layoutControlItem7.Location = new System.Drawing.Point(48, 70);
+            this.layoutControlItem7.Location = new System.Drawing.Point(47, 70);
             this.layoutControlItem7.Name = "layoutControlItem7";
-            this.layoutControlItem7.Size = new System.Drawing.Size(269, 70);
+            this.layoutControlItem7.Size = new System.Drawing.Size(264, 70);
             this.layoutControlItem7.Text = "Unit Price:";
             this.layoutControlItem7.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem7.TextSize = new System.Drawing.Size(108, 20);
@@ -299,9 +299,9 @@
             this.layoutControlItem1.AppearanceItemCaption.Options.UseFont = true;
             this.layoutControlItem1.AppearanceItemCaption.Options.UseForeColor = true;
             this.layoutControlItem1.Control = this.textEdit1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(48, 0);
+            this.layoutControlItem1.Location = new System.Drawing.Point(47, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(269, 70);
+            this.layoutControlItem1.Size = new System.Drawing.Size(264, 70);
             this.layoutControlItem1.Text = "Item Name:";
             this.layoutControlItem1.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem1.TextSize = new System.Drawing.Size(108, 20);
@@ -312,13 +312,14 @@
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 329);
+            this.ClientSize = new System.Drawing.Size(395, 329);
             this.Controls.Add(this.layoutControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.HtmlText = "Add Item ";
             this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("FormAddNewItem.IconOptions.SvgImage")));
             this.MaximizeBox = false;
             this.Name = "FormAddNewItem";
+            this.Load += new System.EventHandler(this.FormAddNewItem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();

@@ -99,6 +99,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Back-Up-Forms\FormAddNewCustomer-BackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Back-Up-Forms\FormAddNewCustomer-BackUp.Designer.cs">
+      <DependentUpon>FormAddNewCustomer-BackUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,6 +287,9 @@
     <Compile Include="UserControls\UC_TaskCalendar.Designer.cs">
       <DependentUpon>UC_TaskCalendar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Back-Up-Forms\FormAddNewCustomer-BackUp.resx">
+      <DependentUpon>FormAddNewCustomer-BackUp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

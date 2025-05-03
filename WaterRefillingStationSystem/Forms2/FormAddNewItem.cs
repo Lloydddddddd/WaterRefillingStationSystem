@@ -17,5 +17,10 @@ namespace WaterRefillingStationSystem.Forms2
         {
             InitializeComponent();
         }
+
+        private void FormAddNewItem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

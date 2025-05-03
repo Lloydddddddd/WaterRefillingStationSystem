@@ -17,5 +17,16 @@ namespace WaterRefillingStationSystem.Reference_Forms
 		{
             InitializeComponent();
 		}
-	}
+
+        private void textEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioGroup1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+        }
+    }
 }

@@ -29,32 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogIn));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButtonLogIn = new DevExpress.XtraEditors.SimpleButton();
             this.btnPasswordReveal = new DevExpress.XtraEditors.SimpleButton();
             this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-94, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(655, 503);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // labelControl1
             // 
@@ -79,42 +69,6 @@
             this.labelControl2.Size = new System.Drawing.Size(256, 39);
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "WATER REFILLNG ";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(750, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(169, 139);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // textEdit3
-            // 
-            this.textEdit3.Location = new System.Drawing.Point(683, 232);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
-            this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textEdit3.Properties.Appearance.Options.UseBackColor = true;
-            this.textEdit3.Properties.Appearance.Options.UseFont = true;
-            this.textEdit3.Properties.Appearance.Options.UseForeColor = true;
-            this.textEdit3.Size = new System.Drawing.Size(296, 38);
-            this.textEdit3.TabIndex = 4;
-            // 
-            // textEdit4
-            // 
-            this.textEdit4.Location = new System.Drawing.Point(683, 291);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
-            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.textEdit4.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.textEdit4.Properties.Appearance.Options.UseBackColor = true;
-            this.textEdit4.Properties.Appearance.Options.UseFont = true;
-            this.textEdit4.Properties.Appearance.Options.UseForeColor = true;
-            this.textEdit4.Size = new System.Drawing.Size(296, 38);
-            this.textEdit4.TabIndex = 5;
             // 
             // simpleButtonLogIn
             // 
@@ -171,6 +125,52 @@
             this.checkEdit1.Size = new System.Drawing.Size(166, 26);
             this.checkEdit1.TabIndex = 9;
             // 
+            // textEdit4
+            // 
+            this.textEdit4.Location = new System.Drawing.Point(683, 291);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
+            this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit4.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textEdit4.Properties.Appearance.Options.UseBackColor = true;
+            this.textEdit4.Properties.Appearance.Options.UseFont = true;
+            this.textEdit4.Properties.Appearance.Options.UseForeColor = true;
+            this.textEdit4.Size = new System.Drawing.Size(296, 38);
+            this.textEdit4.TabIndex = 5;
+            // 
+            // textEdit3
+            // 
+            this.textEdit3.Location = new System.Drawing.Point(683, 232);
+            this.textEdit3.Name = "textEdit3";
+            this.textEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(69)))), ((int)(((byte)(95)))));
+            this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.textEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.textEdit3.Properties.Appearance.Options.UseFont = true;
+            this.textEdit3.Properties.Appearance.Options.UseForeColor = true;
+            this.textEdit3.Size = new System.Drawing.Size(296, 38);
+            this.textEdit3.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(744, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(169, 139);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(-94, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(655, 503);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormLogIn
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
@@ -178,7 +178,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1103, 499);
+            this.ClientSize = new System.Drawing.Size(1103, 491);
             this.Controls.Add(this.checkEdit1);
             this.Controls.Add(this.hyperlinkLabelControl1);
             this.Controls.Add(this.btnPasswordReveal);
@@ -194,11 +194,11 @@
             this.Name = "FormLogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FormLogIn_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
