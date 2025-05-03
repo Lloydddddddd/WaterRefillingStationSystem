@@ -143,7 +143,7 @@
             this.btnPasswordReveal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPasswordReveal.ImageOptions.SvgImage")));
             this.btnPasswordReveal.Location = new System.Drawing.Point(986, 293);
             this.btnPasswordReveal.Name = "btnPasswordReveal";
-            this.btnPasswordReveal.Size = new System.Drawing.Size(56, 39);
+            this.btnPasswordReveal.Size = new System.Drawing.Size(49, 39);
             this.btnPasswordReveal.TabIndex = 7;
             this.btnPasswordReveal.Click += new System.EventHandler(this.btnPasswordReveal_Click);
             // 
