@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormWalkin_ForDeliveryButtons));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.btnForDelivery = new DevExpress.XtraEditors.SimpleButton();
-            this.btnWalkin = new DevExpress.XtraEditors.SimpleButton();
             this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
             this.radioGroup2 = new DevExpress.XtraEditors.RadioGroup();
+            this.btnForDelivery = new DevExpress.XtraEditors.SimpleButton();
+            this.btnWalkin = new DevExpress.XtraEditors.SimpleButton();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -63,6 +63,36 @@
             this.groupControl1.Size = new System.Drawing.Size(326, 344);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Select Method";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.btnCancel.Appearance.Options.UseBackColor = true;
+            this.btnCancel.Appearance.Options.UseFont = true;
+            this.btnCancel.Appearance.Options.UseForeColor = true;
+            this.btnCancel.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.btnCancel.AppearanceHovered.Options.UseFont = true;
+            this.btnCancel.AppearanceHovered.Options.UseForeColor = true;
+            this.btnCancel.AppearancePressed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.btnCancel.AppearancePressed.Options.UseFont = true;
+            this.btnCancel.AppearancePressed.Options.UseForeColor = true;
+            this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
+            this.btnCancel.Location = new System.Drawing.Point(82, 269);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(162, 50);
+            this.btnCancel.TabIndex = 12;
+            this.btnCancel.Text = "Cancell";
+            // 
+            // radioGroup2
+            // 
+            this.radioGroup2.Location = new System.Drawing.Point(0, 250);
+            this.radioGroup2.Name = "radioGroup2";
+            this.radioGroup2.Size = new System.Drawing.Size(326, 94);
+            this.radioGroup2.TabIndex = 11;
             // 
             // btnForDelivery
             // 
@@ -110,36 +140,6 @@
             this.btnWalkin.TabIndex = 8;
             this.btnWalkin.Text = "Walk-In";
             // 
-            // btnCancel
-            // 
-            this.btnCancel.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.btnCancel.Appearance.Options.UseBackColor = true;
-            this.btnCancel.Appearance.Options.UseFont = true;
-            this.btnCancel.Appearance.Options.UseForeColor = true;
-            this.btnCancel.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.btnCancel.AppearanceHovered.Options.UseFont = true;
-            this.btnCancel.AppearanceHovered.Options.UseForeColor = true;
-            this.btnCancel.AppearancePressed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.btnCancel.AppearancePressed.Options.UseFont = true;
-            this.btnCancel.AppearancePressed.Options.UseForeColor = true;
-            this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
-            this.btnCancel.Location = new System.Drawing.Point(82, 269);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(162, 50);
-            this.btnCancel.TabIndex = 12;
-            this.btnCancel.Text = "Cancell";
-            // 
-            // radioGroup2
-            // 
-            this.radioGroup2.Location = new System.Drawing.Point(0, 250);
-            this.radioGroup2.Name = "radioGroup2";
-            this.radioGroup2.Size = new System.Drawing.Size(326, 94);
-            this.radioGroup2.TabIndex = 11;
-            // 
             // radioGroup1
             // 
             this.radioGroup1.Location = new System.Drawing.Point(0, 33);
@@ -155,7 +155,7 @@
             this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(436, 420);
+            this.ClientSize = new System.Drawing.Size(430, 420);
             this.Controls.Add(this.groupControl1);
             this.HtmlText = "Delivery";
             this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("FormWalkin_ForDeliveryButtons.IconOptions.SvgImage")));
