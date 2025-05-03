@@ -105,6 +105,12 @@
     <Compile Include="Back-Up-Forms\FormAddNewCustomer-BackUp.Designer.cs">
       <DependentUpon>FormAddNewCustomer-BackUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Back-Up-Forms\FormAddDispenserRent-BackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Back-Up-Forms\FormAddDispenserRent-BackUp.Designer.cs">
+      <DependentUpon>FormAddDispenserRent-BackUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +295,9 @@
     </Compile>
     <EmbeddedResource Include="Back-Up-Forms\FormAddNewCustomer-BackUp.resx">
       <DependentUpon>FormAddNewCustomer-BackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Back-Up-Forms\FormAddDispenserRent-BackUp.resx">
+      <DependentUpon>FormAddDispenserRent-BackUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

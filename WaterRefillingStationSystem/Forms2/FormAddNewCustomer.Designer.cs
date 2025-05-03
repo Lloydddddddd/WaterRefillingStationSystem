@@ -133,7 +133,7 @@
             this.simpleButton3.AppearancePressed.Options.UseFont = true;
             this.simpleButton3.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(145, 402);
+            this.simpleButton3.Location = new System.Drawing.Point(141, 402);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(155, 38);
             this.simpleButton3.TabIndex = 24;
@@ -160,7 +160,7 @@
             this.simpleButton2.AppearancePressed.Options.UseFont = true;
             this.simpleButton2.AppearancePressed.Options.UseForeColor = true;
             this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(145, 358);
+            this.simpleButton2.Location = new System.Drawing.Point(141, 358);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(155, 38);
             this.simpleButton2.TabIndex = 23;
@@ -169,7 +169,7 @@
             // textEdit1
             // 
             this.textEdit1.EditValue = "";
-            this.textEdit1.Location = new System.Drawing.Point(145, 314);
+            this.textEdit1.Location = new System.Drawing.Point(141, 292);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
@@ -185,7 +185,7 @@
             this.labelControl5.Appearance.Options.UseBackColor = true;
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseForeColor = true;
-            this.labelControl5.Location = new System.Drawing.Point(74, 323);
+            this.labelControl5.Location = new System.Drawing.Point(75, 299);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(60, 23);
             this.labelControl5.TabIndex = 21;
@@ -199,7 +199,7 @@
             this.labelControl4.Appearance.Options.UseBackColor = true;
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(9, 273);
+            this.labelControl4.Location = new System.Drawing.Point(7, 241);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(128, 23);
             this.labelControl4.TabIndex = 20;
@@ -208,7 +208,7 @@
             // textEdit4
             // 
             this.textEdit4.EditValue = "";
-            this.textEdit4.Location = new System.Drawing.Point(145, 266);
+            this.textEdit4.Location = new System.Drawing.Point(143, 234);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEdit4.Properties.Appearance.Options.UseFont = true;
@@ -293,16 +293,16 @@
             // 
             // radioGroup2
             // 
-            this.radioGroup2.Location = new System.Drawing.Point(0, 250);
+            this.radioGroup2.Location = new System.Drawing.Point(0, 352);
             this.radioGroup2.Name = "radioGroup2";
-            this.radioGroup2.Size = new System.Drawing.Size(422, 206);
+            this.radioGroup2.Size = new System.Drawing.Size(422, 104);
             this.radioGroup2.TabIndex = 11;
             // 
             // radioGroup1
             // 
             this.radioGroup1.Location = new System.Drawing.Point(0, 33);
             this.radioGroup1.Name = "radioGroup1";
-            this.radioGroup1.Size = new System.Drawing.Size(422, 219);
+            this.radioGroup1.Size = new System.Drawing.Size(422, 319);
             this.radioGroup1.TabIndex = 1;
             // 
             // textEdit5
