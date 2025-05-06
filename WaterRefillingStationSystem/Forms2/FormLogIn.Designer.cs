@@ -52,7 +52,7 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(811, 137);
+            this.labelControl1.Location = new System.Drawing.Point(811, 145);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(44, 39);
             this.labelControl1.TabIndex = 1;
@@ -64,7 +64,7 @@
             this.labelControl2.Appearance.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(693, 176);
+            this.labelControl2.Location = new System.Drawing.Point(704, 182);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(256, 39);
             this.labelControl2.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.simpleButtonLogIn.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButtonLogIn.AppearancePressed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(197)))), ((int)(((byte)(133)))));
             this.simpleButtonLogIn.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButtonLogIn.Location = new System.Drawing.Point(763, 397);
+            this.simpleButtonLogIn.Location = new System.Drawing.Point(754, 385);
             this.simpleButtonLogIn.Name = "simpleButtonLogIn";
             this.simpleButtonLogIn.Size = new System.Drawing.Size(160, 39);
             this.simpleButtonLogIn.TabIndex = 6;
@@ -155,7 +155,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(744, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(754, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(169, 139);
             this.pictureBox2.TabIndex = 3;
