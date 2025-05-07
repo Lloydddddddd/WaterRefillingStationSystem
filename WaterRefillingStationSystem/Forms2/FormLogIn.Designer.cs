@@ -178,7 +178,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1103, 491);
+            this.ClientSize = new System.Drawing.Size(1103, 504);
             this.Controls.Add(this.checkEdit1);
             this.Controls.Add(this.hyperlinkLabelControl1);
             this.Controls.Add(this.btnPasswordReveal);
