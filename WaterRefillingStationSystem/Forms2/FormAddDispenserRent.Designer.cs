@@ -132,7 +132,7 @@
             this.comboBoxEdit2.Location = new System.Drawing.Point(75, 63);
             this.comboBoxEdit2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.comboBoxEdit2.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.comboBoxEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
             this.comboBoxEdit2.Properties.Appearance.Options.UseBackColor = true;
             this.comboBoxEdit2.Properties.Appearance.Options.UseForeColor = true;
