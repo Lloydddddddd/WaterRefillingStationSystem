@@ -38,8 +38,8 @@
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButtonLogIn = new DevExpress.XtraEditors.SimpleButton();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.hyperlinkLabelControl1 = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.btnPasswordReveal = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
@@ -154,7 +154,7 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(678, 347);
+            this.checkEdit1.Location = new System.Drawing.Point(668, 349);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(146)))), ((int)(((byte)(160)))));
@@ -163,17 +163,6 @@
             this.checkEdit1.Properties.Caption = "Remember me ";
             this.checkEdit1.Size = new System.Drawing.Size(166, 26);
             this.checkEdit1.TabIndex = 10;
-            // 
-            // hyperlinkLabelControl1
-            // 
-            this.hyperlinkLabelControl1.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hyperlinkLabelControl1.Appearance.Options.UseFont = true;
-            this.hyperlinkLabelControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hyperlinkLabelControl1.Location = new System.Drawing.Point(840, 351);
-            this.hyperlinkLabelControl1.Name = "hyperlinkLabelControl1";
-            this.hyperlinkLabelControl1.Size = new System.Drawing.Size(115, 20);
-            this.hyperlinkLabelControl1.TabIndex = 11;
-            this.hyperlinkLabelControl1.Text = "forget password?";
             // 
             // btnPasswordReveal
             // 
@@ -187,6 +176,18 @@
             this.btnPasswordReveal.TabIndex = 12;
             this.btnPasswordReveal.Click += new System.EventHandler(this.btnPasswordReveal_Click);
             // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(146)))), ((int)(((byte)(160)))));
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Appearance.Options.UseForeColor = true;
+            this.labelControl3.Location = new System.Drawing.Point(857, 352);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(113, 20);
+            this.labelControl3.TabIndex = 13;
+            this.labelControl3.Text = "Forget Password ";
+            // 
             // FormLogIn
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(54)))), ((int)(((byte)(80)))));
@@ -194,8 +195,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1045, 459);
+            this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.btnPasswordReveal);
-            this.Controls.Add(this.hyperlinkLabelControl1);
             this.Controls.Add(this.checkEdit1);
             this.Controls.Add(this.simpleButtonLogIn);
             this.Controls.Add(this.textEdit2);
@@ -232,7 +233,7 @@
         private DevExpress.XtraEditors.TextEdit textEdit3;
         private DevExpress.XtraEditors.SimpleButton simpleButtonLogIn;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.HyperlinkLabelControl hyperlinkLabelControl1;
         private DevExpress.XtraEditors.SimpleButton btnPasswordReveal;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
     }
 }
