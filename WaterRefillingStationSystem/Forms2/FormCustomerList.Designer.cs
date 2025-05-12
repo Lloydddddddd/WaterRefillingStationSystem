@@ -188,8 +188,10 @@
             // 
             // simpleButtonEdit
             // 
+            this.simpleButtonEdit.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(128)))), ((int)(((byte)(172)))));
             this.simpleButtonEdit.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonEdit.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonEdit.Appearance.Options.UseBackColor = true;
             this.simpleButtonEdit.Appearance.Options.UseFont = true;
             this.simpleButtonEdit.Appearance.Options.UseForeColor = true;
             this.simpleButtonEdit.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -225,8 +227,10 @@
             // 
             // simpleButtonAddNewCustomer
             // 
+            this.simpleButtonAddNewCustomer.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(128)))), ((int)(((byte)(172)))));
             this.simpleButtonAddNewCustomer.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonAddNewCustomer.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonAddNewCustomer.Appearance.Options.UseBackColor = true;
             this.simpleButtonAddNewCustomer.Appearance.Options.UseFont = true;
             this.simpleButtonAddNewCustomer.Appearance.Options.UseForeColor = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -252,8 +256,10 @@
             // 
             // simpleButtonRemove
             // 
+            this.simpleButtonRemove.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(128)))), ((int)(((byte)(172)))));
             this.simpleButtonRemove.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonRemove.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonRemove.Appearance.Options.UseBackColor = true;
             this.simpleButtonRemove.Appearance.Options.UseFont = true;
             this.simpleButtonRemove.Appearance.Options.UseForeColor = true;
             this.simpleButtonRemove.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;

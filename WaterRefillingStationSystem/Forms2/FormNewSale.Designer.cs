@@ -140,7 +140,7 @@
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButtonAddNewCustomer;
-            this.layoutControlItem2.Location = new System.Drawing.Point(335, 152);
+            this.layoutControlItem2.Location = new System.Drawing.Point(335, 156);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(219, 50);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
@@ -168,7 +168,7 @@
             this.simpleButtonAddNewCustomer.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonAddNewCustomer.Enabled = false;
             this.simpleButtonAddNewCustomer.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonAddNewCustomer.ImageOptions.Image")));
-            this.simpleButtonAddNewCustomer.Location = new System.Drawing.Point(351, 168);
+            this.simpleButtonAddNewCustomer.Location = new System.Drawing.Point(351, 172);
             this.simpleButtonAddNewCustomer.Name = "simpleButtonAddNewCustomer";
             this.simpleButtonAddNewCustomer.Padding = new System.Windows.Forms.Padding(3);
             this.simpleButtonAddNewCustomer.Size = new System.Drawing.Size(213, 44);
@@ -203,17 +203,19 @@
             this.dateEditDateSelection.EditValue = null;
             this.dateEditDateSelection.Location = new System.Drawing.Point(16, 45);
             this.dateEditDateSelection.Name = "dateEditDateSelection";
+            this.dateEditDateSelection.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dateEditDateSelection.Properties.Appearance.Options.UseFont = true;
             this.dateEditDateSelection.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dateEditDateSelection.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEditDateSelection.Size = new System.Drawing.Size(265, 34);
+            this.dateEditDateSelection.Size = new System.Drawing.Size(265, 38);
             this.dateEditDateSelection.StyleController = this.layoutControl1;
             this.dateEditDateSelection.TabIndex = 27;
             // 
             // checkEditListInCustomerDebt
             // 
-            this.checkEditListInCustomerDebt.Location = new System.Drawing.Point(16, 158);
+            this.checkEditListInCustomerDebt.Location = new System.Drawing.Point(16, 162);
             this.checkEditListInCustomerDebt.Name = "checkEditListInCustomerDebt";
             this.checkEditListInCustomerDebt.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkEditListInCustomerDebt.Properties.Appearance.ForeColor = System.Drawing.Color.SlateGray;
@@ -227,7 +229,7 @@
             // 
             // comboBoxEditSelectOption
             // 
-            this.comboBoxEditSelectOption.Location = new System.Drawing.Point(16, 114);
+            this.comboBoxEditSelectOption.Location = new System.Drawing.Point(16, 118);
             this.comboBoxEditSelectOption.Name = "comboBoxEditSelectOption";
             this.comboBoxEditSelectOption.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.comboBoxEditSelectOption.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -246,10 +248,10 @@
             // comboBoxEditSelectCustomer
             // 
             this.comboBoxEditSelectCustomer.Enabled = false;
-            this.comboBoxEditSelectCustomer.Location = new System.Drawing.Point(287, 114);
+            this.comboBoxEditSelectCustomer.Location = new System.Drawing.Point(287, 118);
             this.comboBoxEditSelectCustomer.Name = "comboBoxEditSelectCustomer";
             this.comboBoxEditSelectCustomer.Properties.Appearance.BackColor = System.Drawing.Color.White;
-            this.comboBoxEditSelectCustomer.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEditSelectCustomer.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.comboBoxEditSelectCustomer.Properties.Appearance.Options.UseBackColor = true;
             this.comboBoxEditSelectCustomer.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEditSelectCustomer.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -260,10 +262,10 @@
             // 
             // textEditUnitPrice
             // 
-            this.textEditUnitPrice.Location = new System.Drawing.Point(59, 301);
+            this.textEditUnitPrice.Location = new System.Drawing.Point(59, 305);
             this.textEditUnitPrice.Name = "textEditUnitPrice";
             this.textEditUnitPrice.Properties.Appearance.BackColor = System.Drawing.Color.White;
-            this.textEditUnitPrice.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditUnitPrice.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.textEditUnitPrice.Properties.Appearance.Options.UseBackColor = true;
             this.textEditUnitPrice.Properties.Appearance.Options.UseFont = true;
             this.textEditUnitPrice.Size = new System.Drawing.Size(186, 38);
@@ -332,7 +334,7 @@
             // 
             // textEditTotalPrice
             // 
-            this.textEditTotalPrice.Location = new System.Drawing.Point(60, 460);
+            this.textEditTotalPrice.Location = new System.Drawing.Point(60, 464);
             this.textEditTotalPrice.Name = "textEditTotalPrice";
             this.textEditTotalPrice.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.textEditTotalPrice.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -349,10 +351,10 @@
             0,
             0,
             0});
-            this.spinEditQuantity.Location = new System.Drawing.Point(59, 380);
+            this.spinEditQuantity.Location = new System.Drawing.Point(59, 384);
             this.spinEditQuantity.Name = "spinEditQuantity";
             this.spinEditQuantity.Properties.Appearance.BackColor = System.Drawing.Color.White;
-            this.spinEditQuantity.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spinEditQuantity.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.spinEditQuantity.Properties.Appearance.Options.UseBackColor = true;
             this.spinEditQuantity.Properties.Appearance.Options.UseFont = true;
             this.spinEditQuantity.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -363,10 +365,10 @@
             // 
             // comboBoxEditItemName
             // 
-            this.comboBoxEditItemName.Location = new System.Drawing.Point(19, 222);
+            this.comboBoxEditItemName.Location = new System.Drawing.Point(19, 226);
             this.comboBoxEditItemName.Name = "comboBoxEditItemName";
             this.comboBoxEditItemName.Properties.Appearance.BackColor = System.Drawing.Color.White;
-            this.comboBoxEditItemName.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEditItemName.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.comboBoxEditItemName.Properties.Appearance.Options.UseBackColor = true;
             this.comboBoxEditItemName.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEditItemName.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -397,7 +399,7 @@
             // emptySpaceItem27
             // 
             this.emptySpaceItem27.AllowHotTrack = false;
-            this.emptySpaceItem27.Location = new System.Drawing.Point(238, 253);
+            this.emptySpaceItem27.Location = new System.Drawing.Point(238, 257);
             this.emptySpaceItem27.Name = "emptySpaceItem27";
             this.emptySpaceItem27.Size = new System.Drawing.Size(33, 79);
             this.emptySpaceItem27.TextSize = new System.Drawing.Size(0, 0);
@@ -405,7 +407,7 @@
             // emptySpaceItem19
             // 
             this.emptySpaceItem19.AllowHotTrack = false;
-            this.emptySpaceItem19.Location = new System.Drawing.Point(271, 142);
+            this.emptySpaceItem19.Location = new System.Drawing.Point(271, 146);
             this.emptySpaceItem19.Name = "emptySpaceItem19";
             this.emptySpaceItem19.Size = new System.Drawing.Size(353, 10);
             this.emptySpaceItem19.TextSize = new System.Drawing.Size(0, 0);
@@ -413,9 +415,9 @@
             // emptySpaceItem34
             // 
             this.emptySpaceItem34.AllowHotTrack = false;
-            this.emptySpaceItem34.Location = new System.Drawing.Point(271, 202);
+            this.emptySpaceItem34.Location = new System.Drawing.Point(271, 206);
             this.emptySpaceItem34.Name = "emptySpaceItem34";
-            this.emptySpaceItem34.Size = new System.Drawing.Size(353, 167);
+            this.emptySpaceItem34.Size = new System.Drawing.Size(353, 163);
             this.emptySpaceItem34.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem11
@@ -429,7 +431,7 @@
             this.layoutControlItem11.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem11.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem11.Control = this.comboBoxEditSelectOption;
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 69);
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 73);
             this.layoutControlItem11.Name = "layoutControlItem11";
             this.layoutControlItem11.Size = new System.Drawing.Size(271, 73);
             this.layoutControlItem11.Text = "Order Type";
@@ -439,7 +441,7 @@
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.checkEditListInCustomerDebt;
-            this.layoutControlItem12.Location = new System.Drawing.Point(0, 142);
+            this.layoutControlItem12.Location = new System.Drawing.Point(0, 146);
             this.layoutControlItem12.Name = "layoutControlItem12";
             this.layoutControlItem12.Size = new System.Drawing.Size(271, 32);
             this.layoutControlItem12.TextSize = new System.Drawing.Size(0, 0);
@@ -448,15 +450,15 @@
             // emptySpaceItem14
             // 
             this.emptySpaceItem14.AllowHotTrack = false;
-            this.emptySpaceItem14.Location = new System.Drawing.Point(0, 332);
+            this.emptySpaceItem14.Location = new System.Drawing.Point(0, 336);
             this.emptySpaceItem14.Name = "emptySpaceItem14";
-            this.emptySpaceItem14.Size = new System.Drawing.Size(40, 165);
+            this.emptySpaceItem14.Size = new System.Drawing.Size(40, 161);
             this.emptySpaceItem14.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem29
             // 
             this.emptySpaceItem29.AllowHotTrack = false;
-            this.emptySpaceItem29.Location = new System.Drawing.Point(0, 253);
+            this.emptySpaceItem29.Location = new System.Drawing.Point(0, 257);
             this.emptySpaceItem29.Name = "emptySpaceItem29";
             this.emptySpaceItem29.Size = new System.Drawing.Size(40, 79);
             this.emptySpaceItem29.TextSize = new System.Drawing.Size(0, 0);
@@ -472,7 +474,7 @@
             this.layoutControlItem9.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem9.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem9.Control = this.textEditUnitPrice;
-            this.layoutControlItem9.Location = new System.Drawing.Point(40, 253);
+            this.layoutControlItem9.Location = new System.Drawing.Point(40, 257);
             this.layoutControlItem9.Name = "layoutControlItem9";
             this.layoutControlItem9.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 6, 6);
             this.layoutControlItem9.Size = new System.Drawing.Size(198, 79);
@@ -491,7 +493,7 @@
             this.layoutControlItem7.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem7.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem7.Control = this.spinEditQuantity;
-            this.layoutControlItem7.Location = new System.Drawing.Point(40, 332);
+            this.layoutControlItem7.Location = new System.Drawing.Point(40, 336);
             this.layoutControlItem7.Name = "layoutControlItem7";
             this.layoutControlItem7.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 6, 6);
             this.layoutControlItem7.Size = new System.Drawing.Size(198, 79);
@@ -502,9 +504,9 @@
             // emptySpaceItem24
             // 
             this.emptySpaceItem24.AllowHotTrack = false;
-            this.emptySpaceItem24.Location = new System.Drawing.Point(238, 332);
+            this.emptySpaceItem24.Location = new System.Drawing.Point(238, 336);
             this.emptySpaceItem24.Name = "emptySpaceItem24";
-            this.emptySpaceItem24.Size = new System.Drawing.Size(33, 165);
+            this.emptySpaceItem24.Size = new System.Drawing.Size(33, 161);
             this.emptySpaceItem24.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem15
@@ -520,7 +522,7 @@
             this.layoutControlItem15.Control = this.dateEditDateSelection;
             this.layoutControlItem15.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(271, 69);
+            this.layoutControlItem15.Size = new System.Drawing.Size(271, 73);
             this.layoutControlItem15.Text = "Date";
             this.layoutControlItem15.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem15.TextSize = new System.Drawing.Size(124, 23);
@@ -530,7 +532,7 @@
             this.emptySpaceItem7.AllowHotTrack = false;
             this.emptySpaceItem7.Location = new System.Drawing.Point(271, 0);
             this.emptySpaceItem7.Name = "emptySpaceItem7";
-            this.emptySpaceItem7.Size = new System.Drawing.Size(353, 34);
+            this.emptySpaceItem7.Size = new System.Drawing.Size(353, 36);
             this.emptySpaceItem7.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem10
@@ -544,10 +546,10 @@
             this.layoutControlItem10.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem10.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem10.Control = this.textEditTotalPrice;
-            this.layoutControlItem10.Location = new System.Drawing.Point(40, 411);
+            this.layoutControlItem10.Location = new System.Drawing.Point(40, 415);
             this.layoutControlItem10.Name = "layoutControlItem10";
             this.layoutControlItem10.Padding = new DevExpress.XtraLayout.Utils.Padding(7, 7, 7, 7);
-            this.layoutControlItem10.Size = new System.Drawing.Size(198, 86);
+            this.layoutControlItem10.Size = new System.Drawing.Size(198, 82);
             this.layoutControlItem10.Text = "Total Price";
             this.layoutControlItem10.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem10.TextSize = new System.Drawing.Size(124, 23);
@@ -581,7 +583,7 @@
             this.layoutControlItem1.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem1.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem1.Control = this.comboBoxEditSelectCustomer;
-            this.layoutControlItem1.Location = new System.Drawing.Point(271, 69);
+            this.layoutControlItem1.Location = new System.Drawing.Point(271, 73);
             this.layoutControlItem1.Name = "layoutControlItem1";
             this.layoutControlItem1.Size = new System.Drawing.Size(353, 73);
             this.layoutControlItem1.Text = "Select Customer";
@@ -591,9 +593,9 @@
             // emptySpaceItem4
             // 
             this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(271, 34);
+            this.emptySpaceItem4.Location = new System.Drawing.Point(271, 36);
             this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(353, 35);
+            this.emptySpaceItem4.Size = new System.Drawing.Size(353, 37);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem1
@@ -623,7 +625,7 @@
             this.layoutControlItem6.AppearanceItemCaption.Options.UseTextOptions = true;
             this.layoutControlItem6.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.layoutControlItem6.Control = this.comboBoxEditItemName;
-            this.layoutControlItem6.Location = new System.Drawing.Point(0, 174);
+            this.layoutControlItem6.Location = new System.Drawing.Point(0, 178);
             this.layoutControlItem6.Name = "layoutControlItem6";
             this.layoutControlItem6.Padding = new DevExpress.XtraLayout.Utils.Padding(6, 6, 6, 6);
             this.layoutControlItem6.Size = new System.Drawing.Size(271, 79);
@@ -634,7 +636,7 @@
             // emptySpaceItem6
             // 
             this.emptySpaceItem6.AllowHotTrack = false;
-            this.emptySpaceItem6.Location = new System.Drawing.Point(271, 152);
+            this.emptySpaceItem6.Location = new System.Drawing.Point(271, 156);
             this.emptySpaceItem6.Name = "emptySpaceItem6";
             this.emptySpaceItem6.Size = new System.Drawing.Size(64, 50);
             this.emptySpaceItem6.TextSize = new System.Drawing.Size(0, 0);
@@ -642,7 +644,7 @@
             // emptySpaceItem5
             // 
             this.emptySpaceItem5.AllowHotTrack = false;
-            this.emptySpaceItem5.Location = new System.Drawing.Point(554, 152);
+            this.emptySpaceItem5.Location = new System.Drawing.Point(554, 156);
             this.emptySpaceItem5.Name = "emptySpaceItem5";
             this.emptySpaceItem5.Size = new System.Drawing.Size(70, 50);
             this.emptySpaceItem5.TextSize = new System.Drawing.Size(0, 0);

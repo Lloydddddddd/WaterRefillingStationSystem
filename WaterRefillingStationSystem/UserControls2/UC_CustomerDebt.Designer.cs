@@ -199,8 +199,10 @@
             // 
             // simpleButtonPaid
             // 
+            this.simpleButtonPaid.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(128)))), ((int)(((byte)(172)))));
             this.simpleButtonPaid.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonPaid.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonPaid.Appearance.Options.UseBackColor = true;
             this.simpleButtonPaid.Appearance.Options.UseFont = true;
             this.simpleButtonPaid.Appearance.Options.UseForeColor = true;
             this.simpleButtonPaid.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -226,8 +228,10 @@
             // 
             // simpleButton2
             // 
+            this.simpleButton2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(128)))), ((int)(((byte)(172)))));
             this.simpleButton2.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton2.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButton2.Appearance.Options.UseBackColor = true;
             this.simpleButton2.Appearance.Options.UseFont = true;
             this.simpleButton2.Appearance.Options.UseForeColor = true;
             this.simpleButton2.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
