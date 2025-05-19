@@ -42,6 +42,9 @@ namespace WaterRefillingStationSystem.UserControls2
                     Debt = Convert.ToInt32(gridView.GetFocusedRowCellValue("Debt"))
                 };
 
+                //Set OrderDate to the actual payment date instead of the original order date
+                DateTime paymentDate = DateTime.Now; //Use the date the "Paid" button was clicked
+
                 //Step 1: Move debt record to `SalesDetails`, excluding `Name`
                 SalesDetails newSale = new SalesDetails
                 {
@@ -50,7 +53,7 @@ namespace WaterRefillingStationSystem.UserControls2
                     Quantity = selectedDebt.Quantity,
                     UnitPrice = selectedDebt.UnitPrice,
                     TotalPrice = selectedDebt.Debt, //Debt now becomes TotalPrice
-                    OrderDate = selectedDebt.OrderDate
+                    OrderDate = paymentDate
                 };
 
                 _saleRepository.AddSale(

@@ -171,17 +171,17 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(204, 597);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(215, 597);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(762, 100);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(753, 100);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButtonEdit;
-            this.layoutControlItem2.Location = new System.Drawing.Point(966, 597);
+            this.layoutControlItem2.Location = new System.Drawing.Point(968, 597);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(162, 50);
+            this.layoutControlItem2.Size = new System.Drawing.Size(160, 50);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
@@ -202,10 +202,10 @@
             this.simpleButtonEdit.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonEdit.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonEdit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonEdit.ImageOptions.Image")));
-            this.simpleButtonEdit.Location = new System.Drawing.Point(982, 613);
+            this.simpleButtonEdit.Location = new System.Drawing.Point(984, 613);
             this.simpleButtonEdit.Name = "simpleButtonEdit";
             this.simpleButtonEdit.Padding = new System.Windows.Forms.Padding(3);
-            this.simpleButtonEdit.Size = new System.Drawing.Size(156, 44);
+            this.simpleButtonEdit.Size = new System.Drawing.Size(154, 44);
             this.simpleButtonEdit.StyleController = this.layoutControl1;
             this.simpleButtonEdit.TabIndex = 7;
             this.simpleButtonEdit.Text = "Edit";
@@ -234,13 +234,13 @@
             this.simpleButtonAddNewCustomer.Appearance.Options.UseFont = true;
             this.simpleButtonAddNewCustomer.Appearance.Options.UseForeColor = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButtonAddNewCustomer.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.simpleButtonAddNewCustomer.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Variable Small Semibol", 10.01739F, System.Drawing.FontStyle.Bold);
             this.simpleButtonAddNewCustomer.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonAddNewCustomer.AppearanceHovered.Options.UseBackColor = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.Options.UseFont = true;
             this.simpleButtonAddNewCustomer.AppearanceHovered.Options.UseForeColor = true;
             this.simpleButtonAddNewCustomer.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButtonAddNewCustomer.AppearancePressed.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.simpleButtonAddNewCustomer.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Variable Small Semibol", 10.01739F, System.Drawing.FontStyle.Bold);
             this.simpleButtonAddNewCustomer.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonAddNewCustomer.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonAddNewCustomer.AppearancePressed.Options.UseFont = true;
@@ -249,7 +249,7 @@
             this.simpleButtonAddNewCustomer.Location = new System.Drawing.Point(16, 640);
             this.simpleButtonAddNewCustomer.Name = "simpleButtonAddNewCustomer";
             this.simpleButtonAddNewCustomer.Padding = new System.Windows.Forms.Padding(4);
-            this.simpleButtonAddNewCustomer.Size = new System.Drawing.Size(198, 46);
+            this.simpleButtonAddNewCustomer.Size = new System.Drawing.Size(209, 46);
             this.simpleButtonAddNewCustomer.StyleController = this.layoutControl1;
             this.simpleButtonAddNewCustomer.TabIndex = 9;
             this.simpleButtonAddNewCustomer.Text = "Add New Customer";
@@ -272,10 +272,10 @@
             this.simpleButtonRemove.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonRemove.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonRemove.ImageOptions.Image")));
-            this.simpleButtonRemove.Location = new System.Drawing.Point(982, 663);
+            this.simpleButtonRemove.Location = new System.Drawing.Point(984, 663);
             this.simpleButtonRemove.Name = "simpleButtonRemove";
             this.simpleButtonRemove.Padding = new System.Windows.Forms.Padding(3);
-            this.simpleButtonRemove.Size = new System.Drawing.Size(156, 44);
+            this.simpleButtonRemove.Size = new System.Drawing.Size(154, 44);
             this.simpleButtonRemove.StyleController = this.layoutControl1;
             this.simpleButtonRemove.TabIndex = 8;
             this.simpleButtonRemove.Text = "Remove";
@@ -284,9 +284,9 @@
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButtonRemove;
-            this.layoutControlItem4.Location = new System.Drawing.Point(966, 647);
+            this.layoutControlItem4.Location = new System.Drawing.Point(968, 647);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(162, 50);
+            this.layoutControlItem4.Size = new System.Drawing.Size(160, 50);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
             // 
@@ -295,7 +295,7 @@
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.Location = new System.Drawing.Point(0, 597);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(204, 27);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(215, 27);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem1
@@ -303,7 +303,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 676);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(204, 21);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(215, 21);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem5
@@ -311,7 +311,7 @@
             this.layoutControlItem5.Control = this.simpleButtonAddNewCustomer;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 624);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(204, 52);
+            this.layoutControlItem5.Size = new System.Drawing.Size(215, 52);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
             // 

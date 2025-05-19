@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_PendingOrders));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.ButtonPendingOrderViewDetails = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonRemove = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonViewDetails = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonDelivered = new DevExpress.XtraEditors.SimpleButton();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -43,7 +43,6 @@
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem4 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -56,7 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).BeginInit();
@@ -65,9 +63,9 @@
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.simpleButton3);
-            this.layoutControl1.Controls.Add(this.ButtonPendingOrderViewDetails);
-            this.layoutControl1.Controls.Add(this.simpleButton1);
+            this.layoutControl1.Controls.Add(this.simpleButtonRemove);
+            this.layoutControl1.Controls.Add(this.simpleButtonViewDetails);
+            this.layoutControl1.Controls.Add(this.simpleButtonDelivered);
             this.layoutControl1.Controls.Add(this.gridControl1);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
@@ -77,83 +75,83 @@
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
-            // simpleButton3
+            // simpleButtonRemove
             // 
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Appearance.Options.UseForeColor = true;
-            this.simpleButton3.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButton3.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton3.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton3.AppearanceHovered.Options.UseFont = true;
-            this.simpleButton3.AppearanceHovered.Options.UseForeColor = true;
-            this.simpleButton3.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton3.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton3.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton3.AppearancePressed.Options.UseFont = true;
-            this.simpleButton3.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(1018, 693);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(146, 38);
-            this.simpleButton3.StyleController = this.layoutControl1;
-            this.simpleButton3.TabIndex = 8;
-            this.simpleButton3.Text = "Delete";
+            this.simpleButtonRemove.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonRemove.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonRemove.Appearance.Options.UseFont = true;
+            this.simpleButtonRemove.Appearance.Options.UseForeColor = true;
+            this.simpleButtonRemove.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
+            this.simpleButtonRemove.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonRemove.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonRemove.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButtonRemove.AppearanceHovered.Options.UseFont = true;
+            this.simpleButtonRemove.AppearanceHovered.Options.UseForeColor = true;
+            this.simpleButtonRemove.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButtonRemove.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonRemove.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonRemove.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButtonRemove.AppearancePressed.Options.UseFont = true;
+            this.simpleButtonRemove.AppearancePressed.Options.UseForeColor = true;
+            this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.simpleButtonRemove.Location = new System.Drawing.Point(1018, 693);
+            this.simpleButtonRemove.Name = "simpleButtonRemove";
+            this.simpleButtonRemove.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonRemove.StyleController = this.layoutControl1;
+            this.simpleButtonRemove.TabIndex = 8;
+            this.simpleButtonRemove.Text = "Remove";
             // 
-            // ButtonPendingOrderViewDetails
+            // simpleButtonViewDetails
             // 
-            this.ButtonPendingOrderViewDetails.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonPendingOrderViewDetails.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.ButtonPendingOrderViewDetails.Appearance.Options.UseFont = true;
-            this.ButtonPendingOrderViewDetails.Appearance.Options.UseForeColor = true;
-            this.ButtonPendingOrderViewDetails.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonPendingOrderViewDetails.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.ButtonPendingOrderViewDetails.AppearanceHovered.Options.UseFont = true;
-            this.ButtonPendingOrderViewDetails.AppearanceHovered.Options.UseForeColor = true;
-            this.ButtonPendingOrderViewDetails.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonPendingOrderViewDetails.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.ButtonPendingOrderViewDetails.AppearancePressed.Options.UseFont = true;
-            this.ButtonPendingOrderViewDetails.AppearancePressed.Options.UseForeColor = true;
-            this.ButtonPendingOrderViewDetails.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonPendingOrderViewDetails.ImageOptions.Image")));
-            this.ButtonPendingOrderViewDetails.Location = new System.Drawing.Point(16, 671);
-            this.ButtonPendingOrderViewDetails.Name = "ButtonPendingOrderViewDetails";
-            this.ButtonPendingOrderViewDetails.Size = new System.Drawing.Size(146, 38);
-            this.ButtonPendingOrderViewDetails.StyleController = this.layoutControl1;
-            this.ButtonPendingOrderViewDetails.TabIndex = 6;
-            this.ButtonPendingOrderViewDetails.Text = "View Details";
-            this.ButtonPendingOrderViewDetails.Click += new System.EventHandler(this.ButtonPendingOrderViewDetails_Click);
+            this.simpleButtonViewDetails.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonViewDetails.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonViewDetails.Appearance.Options.UseFont = true;
+            this.simpleButtonViewDetails.Appearance.Options.UseForeColor = true;
+            this.simpleButtonViewDetails.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonViewDetails.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonViewDetails.AppearanceHovered.Options.UseFont = true;
+            this.simpleButtonViewDetails.AppearanceHovered.Options.UseForeColor = true;
+            this.simpleButtonViewDetails.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonViewDetails.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonViewDetails.AppearancePressed.Options.UseFont = true;
+            this.simpleButtonViewDetails.AppearancePressed.Options.UseForeColor = true;
+            this.simpleButtonViewDetails.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonPendingOrderViewDetails.ImageOptions.Image")));
+            this.simpleButtonViewDetails.Location = new System.Drawing.Point(16, 671);
+            this.simpleButtonViewDetails.Name = "simpleButtonViewDetails";
+            this.simpleButtonViewDetails.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonViewDetails.StyleController = this.layoutControl1;
+            this.simpleButtonViewDetails.TabIndex = 6;
+            this.simpleButtonViewDetails.Text = "View Details";
+            this.simpleButtonViewDetails.Click += new System.EventHandler(this.ButtonPendingOrderViewDetails_Click);
             // 
-            // simpleButton1
+            // simpleButtonDelivered
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Appearance.Options.UseForeColor = true;
-            this.simpleButton1.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.AppearanceHovered.Options.UseFont = true;
-            this.simpleButton1.AppearanceHovered.Options.UseForeColor = true;
-            this.simpleButton1.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.AppearancePressed.Options.UseFont = true;
-            this.simpleButton1.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(16, 715);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(146, 38);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "Completed";
+            this.simpleButtonDelivered.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonDelivered.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonDelivered.Appearance.Options.UseFont = true;
+            this.simpleButtonDelivered.Appearance.Options.UseForeColor = true;
+            this.simpleButtonDelivered.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonDelivered.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonDelivered.AppearanceHovered.Options.UseFont = true;
+            this.simpleButtonDelivered.AppearanceHovered.Options.UseForeColor = true;
+            this.simpleButtonDelivered.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonDelivered.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonDelivered.AppearancePressed.Options.UseFont = true;
+            this.simpleButtonDelivered.AppearancePressed.Options.UseForeColor = true;
+            this.simpleButtonDelivered.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButtonDelivered.Location = new System.Drawing.Point(16, 715);
+            this.simpleButtonDelivered.Name = "simpleButtonDelivered";
+            this.simpleButtonDelivered.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonDelivered.StyleController = this.layoutControl1;
+            this.simpleButtonDelivered.TabIndex = 5;
+            this.simpleButtonDelivered.Text = "Delivered";
             // 
             // gridControl1
             // 
             this.gridControl1.Location = new System.Drawing.Point(16, 16);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1148, 629);
+            this.gridControl1.Size = new System.Drawing.Size(1148, 649);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -174,8 +172,6 @@
             // 
             // gridColumn2
             // 
-            this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn2.AppearanceCell.Options.UseFont = true;
             this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn2.Caption = "Customer Name";
@@ -187,8 +183,6 @@
             // 
             // gridColumn6
             // 
-            this.gridColumn6.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn6.AppearanceCell.Options.UseFont = true;
             this.gridColumn6.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn6.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn6.Caption = "Address";
@@ -200,8 +194,6 @@
             // 
             // gridColumn3
             // 
-            this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn3.AppearanceCell.Options.UseFont = true;
             this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn3.Caption = "Order Date";
@@ -230,7 +222,6 @@
             this.layoutControlItem1,
             this.layoutControlItem3,
             this.emptySpaceItem4,
-            this.emptySpaceItem3,
             this.layoutControlItem2,
             this.layoutControlItem5,
             this.emptySpaceItem1,
@@ -244,13 +235,13 @@
             this.layoutControlItem1.Control = this.gridControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1154, 635);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1154, 655);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.ButtonPendingOrderViewDetails;
+            this.layoutControlItem3.Control = this.simpleButtonViewDetails;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 655);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(152, 44);
@@ -265,17 +256,9 @@
             this.emptySpaceItem4.Size = new System.Drawing.Size(850, 88);
             this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
             // 
-            // emptySpaceItem3
-            // 
-            this.emptySpaceItem3.AllowHotTrack = false;
-            this.emptySpaceItem3.Location = new System.Drawing.Point(0, 635);
-            this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(1154, 20);
-            this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
-            // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.simpleButton1;
+            this.layoutControlItem2.Control = this.simpleButtonDelivered;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 699);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(152, 44);
@@ -284,7 +267,7 @@
             // 
             // layoutControlItem5
             // 
-            this.layoutControlItem5.Control = this.simpleButton3;
+            this.layoutControlItem5.Control = this.simpleButtonRemove;
             this.layoutControlItem5.Location = new System.Drawing.Point(1002, 677);
             this.layoutControlItem5.Name = "layoutControlItem5";
             this.layoutControlItem5.Size = new System.Drawing.Size(152, 44);
@@ -322,7 +305,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
@@ -341,14 +323,13 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem3;
-        private DevExpress.XtraEditors.SimpleButton ButtonPendingOrderViewDetails;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonViewDetails;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonDelivered;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonRemove;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;

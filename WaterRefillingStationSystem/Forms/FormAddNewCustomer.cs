@@ -62,6 +62,7 @@ namespace WaterRefillingStationSystem.Forms2
 
             // Clear input fields after saving
             ClearFields();
+            this.Close();
         }
         public void SetCustomerData(Customers customer)
         {
