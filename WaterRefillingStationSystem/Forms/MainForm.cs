@@ -42,7 +42,13 @@ namespace WaterRefillingStationSystem.Forms
 
             this.Controls.Add(_ucCustomerDebt); //Add it to the form if needed
         }
-
+        private void aciDashboard_Click(object sender, EventArgs e)
+        {
+            UC_Dashboard uC_Dashboard = new UC_Dashboard();
+            panelBody.Controls.Clear();
+            uC_Dashboard.Dock = DockStyle.Fill;
+            panelBody.Controls.Add(uC_Dashboard);
+        }
         private void aciNewSale_Click(object sender, EventArgs e)
         {
             if (_ucCustomerDebt == null)
