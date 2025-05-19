@@ -53,15 +53,9 @@
             this.xrTableCell10 = new DevExpress.XtraReports.UI.XRTableCell();
             this.StartDate = new DevExpress.XtraReports.Parameters.Parameter();
             this.EndDate = new DevExpress.XtraReports.Parameters.Parameter();
-            this.objectDataSource1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
-            this.objectDataSource2 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
-            this.objectDataSource3 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             this.objectDataSource4 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
@@ -305,21 +299,6 @@
             this.EndDate.Type = typeof(System.DateTime);
             this.EndDate.ValueInfo = "2025-04-29";
             // 
-            // objectDataSource1
-            // 
-            this.objectDataSource1.DataSource = typeof(WaterRefillingStationSystem.Models.SalesDetails);
-            this.objectDataSource1.Name = "objectDataSource1";
-            // 
-            // objectDataSource2
-            // 
-            this.objectDataSource2.DataSource = typeof(WaterRefillingStationSystem.Models.SalesDetails);
-            this.objectDataSource2.Name = "objectDataSource2";
-            // 
-            // objectDataSource3
-            // 
-            this.objectDataSource3.DataSource = typeof(WaterRefillingStationSystem.Models.SalesDetails);
-            this.objectDataSource3.Name = "objectDataSource3";
-            // 
             // objectDataSource4
             // 
             this.objectDataSource4.DataSource = typeof(WaterRefillingStationSystem.Models.SalesDetails);
@@ -332,9 +311,6 @@
             this.BottomMargin,
             this.Detail});
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
-            this.objectDataSource1,
-            this.objectDataSource2,
-            this.objectDataSource3,
             this.objectDataSource4});
             this.DataSource = this.objectDataSource4;
             this.FilterString = "[OrderDate] >= ?StartDate And [OrderDate] <= ?EndDate";
@@ -351,9 +327,6 @@
             this.Watermarks.Add(xrWatermark1);
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.objectDataSource3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.objectDataSource4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
@@ -381,12 +354,9 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell12;
         private DevExpress.XtraReports.Parameters.Parameter StartDate;
         private DevExpress.XtraReports.Parameters.Parameter EndDate;
-        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource1;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell10;
-        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource2;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell2;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell9;
-        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource3;
         private DevExpress.DataAccess.ObjectBinding.ObjectDataSource objectDataSource4;
     }
 }

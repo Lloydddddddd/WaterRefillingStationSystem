@@ -157,10 +157,12 @@
     </Compile>
     <Compile Include="Interfaces\ICustomerDebtRepository.cs" />
     <Compile Include="Interfaces\ICustomerRepository.cs" />
+    <Compile Include="Interfaces\IRentedDispensersRepository.cs" />
     <Compile Include="Interfaces\ISaleRepository.cs" />
     <Compile Include="Interfaces\IStationSuppliesRepository.cs" />
     <Compile Include="Models\CustomerDebt.cs" />
     <Compile Include="Models\Customers.cs" />
+    <Compile Include="Models\RentedDispenser.cs" />
     <Compile Include="Models\SalesDetails.cs" />
     <Compile Include="Models\StationSupplies.cs" />
     <Compile Include="Program.cs" />
@@ -178,6 +180,7 @@
     </Compile>
     <Compile Include="Repositories\CustomerDebtRepository.cs" />
     <Compile Include="Repositories\CustomerRepository.cs" />
+    <Compile Include="Repositories\RentedDispensersRepository.cs" />
     <Compile Include="Repositories\SalesRepository.cs" />
     <Compile Include="Repositories\StationSuppliesRepository.cs" />
     <Compile Include="UserControls2\UC_RentedDispensers.cs">

@@ -47,6 +47,9 @@
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -93,7 +96,7 @@
             this.simpleButtonRemove.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonRemove.AppearancePressed.Options.UseFont = true;
             this.simpleButtonRemove.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonRemove.ImageOptions.Image")));
             this.simpleButtonRemove.Location = new System.Drawing.Point(1018, 693);
             this.simpleButtonRemove.Name = "simpleButtonRemove";
             this.simpleButtonRemove.Size = new System.Drawing.Size(146, 38);
@@ -115,7 +118,7 @@
             this.simpleButtonViewDetails.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonViewDetails.AppearancePressed.Options.UseFont = true;
             this.simpleButtonViewDetails.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButtonViewDetails.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ButtonPendingOrderViewDetails.ImageOptions.Image")));
+            this.simpleButtonViewDetails.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonViewDetails.ImageOptions.Image")));
             this.simpleButtonViewDetails.Location = new System.Drawing.Point(16, 671);
             this.simpleButtonViewDetails.Name = "simpleButtonViewDetails";
             this.simpleButtonViewDetails.Size = new System.Drawing.Size(146, 38);
@@ -138,7 +141,7 @@
             this.simpleButtonDelivered.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonDelivered.AppearancePressed.Options.UseFont = true;
             this.simpleButtonDelivered.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButtonDelivered.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButtonDelivered.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonDelivered.ImageOptions.Image")));
             this.simpleButtonDelivered.Location = new System.Drawing.Point(16, 715);
             this.simpleButtonDelivered.Name = "simpleButtonDelivered";
             this.simpleButtonDelivered.Size = new System.Drawing.Size(146, 38);
@@ -166,7 +169,10 @@
             this.gridColumn2,
             this.gridColumn6,
             this.gridColumn3,
-            this.gridColumn4});
+            this.gridColumn4,
+            this.gridColumn1,
+            this.gridColumn5,
+            this.gridColumn7});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             // 
@@ -185,7 +191,7 @@
             // 
             this.gridColumn6.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn6.AppearanceHeader.Options.UseForeColor = true;
-            this.gridColumn6.Caption = "Address";
+            this.gridColumn6.Caption = "Item Name";
             this.gridColumn6.MinWidth = 25;
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
@@ -196,7 +202,7 @@
             // 
             this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
-            this.gridColumn3.Caption = "Order Date";
+            this.gridColumn3.Caption = "Quantity";
             this.gridColumn3.MinWidth = 25;
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
@@ -205,9 +211,9 @@
             // 
             // gridColumn4
             // 
-            this.gridColumn4.AppearanceHeader.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
-            this.gridColumn4.Caption = "Total Price";
+            this.gridColumn4.Caption = "Unit Price";
             this.gridColumn4.MinWidth = 25;
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
@@ -290,6 +296,39 @@
             this.emptySpaceItem2.Size = new System.Drawing.Size(152, 22);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
+            // gridColumn1
+            // 
+            this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
+            this.gridColumn1.Caption = "Order Date";
+            this.gridColumn1.MinWidth = 25;
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 4;
+            this.gridColumn1.Width = 94;
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
+            this.gridColumn5.AppearanceHeader.Options.UseForeColor = true;
+            this.gridColumn5.Caption = "Address";
+            this.gridColumn5.MinWidth = 25;
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 5;
+            this.gridColumn5.Width = 94;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.AppearanceHeader.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.gridColumn7.AppearanceHeader.Options.UseForeColor = true;
+            this.gridColumn7.Caption = "Total Price";
+            this.gridColumn7.MinWidth = 25;
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 6;
+            this.gridColumn7.Width = 94;
+            // 
             // UC_PendingOrders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -333,5 +372,8 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem5;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
     }
 }

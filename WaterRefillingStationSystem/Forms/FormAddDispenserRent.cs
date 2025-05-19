@@ -17,5 +17,14 @@ namespace WaterRefillingStationSystem.Forms2
         {
             InitializeComponent();
         }
+
+        private void FormAddDispenserRent_Load(object sender, EventArgs e)
+        {
+            SetLatestOrderDate();
+        }
+        private void SetLatestOrderDate()
+        {
+            labelOrderDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
+        }
     }
 }

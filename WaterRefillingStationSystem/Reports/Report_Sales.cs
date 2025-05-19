@@ -11,6 +11,9 @@ namespace WaterRefillingStationSystem.Reports
         public Report_Sales()
         {
             InitializeComponent();
+            //Set default values dynamically when report loads
+            this.Parameters["StartDate"].Value = DateTime.Today;
+            this.Parameters["EndDate"].Value = DateTime.Today;
         }
 
     }

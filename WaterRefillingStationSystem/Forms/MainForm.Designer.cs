@@ -48,9 +48,6 @@
             this.aciInventoryReport = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciCustomerReport = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator4 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
-            this.accordionControlElement16 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciPricingSettings = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciUserProfiles = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciLogout = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.panelBody = new DevExpress.XtraEditors.PanelControl();
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).BeginInit();
@@ -88,7 +85,7 @@
             this.POStab});
             this.accordionControl1.Location = new System.Drawing.Point(0, 0);
             this.accordionControl1.Name = "accordionControl1";
-            this.accordionControl1.Size = new System.Drawing.Size(301, 714);
+            this.accordionControl1.Size = new System.Drawing.Size(301, 731);
             this.accordionControl1.TabIndex = 0;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -102,7 +99,7 @@
             this.accordionControlSeparator3,
             this.accordionControlElement12,
             this.accordionControlSeparator4,
-            this.accordionControlElement16});
+            this.aciLogout});
             this.POStab.Expanded = true;
             this.POStab.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("POStab.ImageOptions.Image")));
             this.POStab.Name = "POStab";
@@ -232,31 +229,9 @@
             // 
             this.accordionControlSeparator4.Name = "accordionControlSeparator4";
             // 
-            // accordionControlElement16
-            // 
-            this.accordionControlElement16.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.aciPricingSettings,
-            this.aciUserProfiles,
-            this.aciLogout});
-            this.accordionControlElement16.Expanded = true;
-            this.accordionControlElement16.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement16.ImageOptions.Image")));
-            this.accordionControlElement16.Name = "accordionControlElement16";
-            this.accordionControlElement16.Text = "Settings";
-            // 
-            // aciPricingSettings
-            // 
-            this.aciPricingSettings.Name = "aciPricingSettings";
-            this.aciPricingSettings.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciPricingSettings.Text = "Pricing Settings";
-            // 
-            // aciUserProfiles
-            // 
-            this.aciUserProfiles.Name = "aciUserProfiles";
-            this.aciUserProfiles.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciUserProfiles.Text = "User Profiles";
-            // 
             // aciLogout
             // 
+            this.aciLogout.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("aciLogout.ImageOptions.Image")));
             this.aciLogout.Name = "aciLogout";
             this.aciLogout.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciLogout.Text = "Logout";
@@ -269,18 +244,18 @@
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBody.Location = new System.Drawing.Point(301, 0);
             this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(858, 714);
+            this.panelBody.Size = new System.Drawing.Size(858, 731);
             this.panelBody.TabIndex = 1;
             // 
-            // MainForm2
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1159, 714);
+            this.ClientSize = new System.Drawing.Size(1159, 731);
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.accordionControl1);
-            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm2.IconOptions.Image")));
-            this.Name = "MainForm2";
+            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -309,9 +284,6 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciInventoryReport;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciCustomerReport;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement16;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciPricingSettings;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciUserProfiles;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciLogout;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciCustomerDebt;
         public DevExpress.XtraEditors.PanelControl panelBody;

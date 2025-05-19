@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_RentedDispensers));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonReturned = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButtonAddRent = new DevExpress.XtraEditors.SimpleButton();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -41,6 +41,7 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
@@ -59,8 +60,8 @@
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.simpleButton2);
-            this.layoutControl1.Controls.Add(this.simpleButton1);
+            this.layoutControl1.Controls.Add(this.simpleButtonReturned);
+            this.layoutControl1.Controls.Add(this.simpleButtonAddRent);
             this.layoutControl1.Controls.Add(this.gridControl1);
             this.layoutControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
@@ -70,49 +71,50 @@
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
-            // simpleButton2
+            // simpleButtonReturned
             // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton2.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Appearance.Options.UseForeColor = true;
-            this.simpleButton2.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButton2.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton2.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton2.AppearanceHovered.Options.UseForeColor = true;
-            this.simpleButton2.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton2.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton2.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton2.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(1069, 728);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(156, 38);
-            this.simpleButton2.StyleController = this.layoutControl1;
-            this.simpleButton2.TabIndex = 6;
-            this.simpleButton2.Text = "Returned";
+            this.simpleButtonReturned.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonReturned.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonReturned.Appearance.Options.UseFont = true;
+            this.simpleButtonReturned.Appearance.Options.UseForeColor = true;
+            this.simpleButtonReturned.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
+            this.simpleButtonReturned.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonReturned.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButtonReturned.AppearanceHovered.Options.UseForeColor = true;
+            this.simpleButtonReturned.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButtonReturned.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonReturned.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButtonReturned.AppearancePressed.Options.UseForeColor = true;
+            this.simpleButtonReturned.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.simpleButtonReturned.Location = new System.Drawing.Point(1069, 728);
+            this.simpleButtonReturned.Name = "simpleButtonReturned";
+            this.simpleButtonReturned.Size = new System.Drawing.Size(156, 38);
+            this.simpleButtonReturned.StyleController = this.layoutControl1;
+            this.simpleButtonReturned.TabIndex = 6;
+            this.simpleButtonReturned.Text = "Returned";
             // 
-            // simpleButton1
+            // simpleButtonAddRent
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Appearance.Options.UseForeColor = true;
-            this.simpleButton1.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButton1.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton1.AppearanceHovered.Options.UseForeColor = true;
-            this.simpleButton1.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton1.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton1.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(1069, 684);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(156, 38);
-            this.simpleButton1.StyleController = this.layoutControl1;
-            this.simpleButton1.TabIndex = 5;
-            this.simpleButton1.Text = "Add Rent";
+            this.simpleButtonAddRent.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButtonAddRent.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonAddRent.Appearance.Options.UseFont = true;
+            this.simpleButtonAddRent.Appearance.Options.UseForeColor = true;
+            this.simpleButtonAddRent.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
+            this.simpleButtonAddRent.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonAddRent.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButtonAddRent.AppearanceHovered.Options.UseForeColor = true;
+            this.simpleButtonAddRent.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButtonAddRent.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonAddRent.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButtonAddRent.AppearancePressed.Options.UseForeColor = true;
+            this.simpleButtonAddRent.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButtonAddRent.Location = new System.Drawing.Point(1069, 684);
+            this.simpleButtonAddRent.Name = "simpleButtonAddRent";
+            this.simpleButtonAddRent.Size = new System.Drawing.Size(156, 38);
+            this.simpleButtonAddRent.StyleController = this.layoutControl1;
+            this.simpleButtonAddRent.TabIndex = 5;
+            this.simpleButtonAddRent.Text = "Add Rent";
+            this.simpleButtonAddRent.Click += new System.EventHandler(this.simpleButtonAddRent_Click);
             // 
             // gridControl1
             // 
@@ -137,17 +139,17 @@
             this.gridColumn3,
             this.gridColumn4,
             this.gridColumn5,
-            this.gridColumn6});
+            this.gridColumn6,
+            this.gridColumn8});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn7
             // 
-            this.gridColumn7.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn7.AppearanceCell.Options.UseFont = true;
             this.gridColumn7.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn7.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn7.Caption = "Order Type";
+            this.gridColumn7.FieldName = "OrderType";
             this.gridColumn7.MinWidth = 25;
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.Visible = true;
@@ -156,11 +158,10 @@
             // 
             // gridColumn1
             // 
-            this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn1.AppearanceCell.Options.UseFont = true;
             this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn1.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn1.Caption = "Customer Name";
+            this.gridColumn1.FieldName = "CustomerName";
             this.gridColumn1.MinWidth = 25;
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
@@ -169,11 +170,10 @@
             // 
             // gridColumn2
             // 
-            this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn2.AppearanceCell.Options.UseFont = true;
             this.gridColumn2.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn2.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn2.Caption = "Address";
+            this.gridColumn2.FieldName = "Address";
             this.gridColumn2.MinWidth = 25;
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
@@ -182,11 +182,10 @@
             // 
             // gridColumn3
             // 
-            this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn3.AppearanceCell.Options.UseFont = true;
             this.gridColumn3.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn3.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn3.Caption = "Item Name";
+            this.gridColumn3.FieldName = "ItemName";
             this.gridColumn3.MinWidth = 25;
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
@@ -195,11 +194,10 @@
             // 
             // gridColumn4
             // 
-            this.gridColumn4.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn4.AppearanceCell.Options.UseFont = true;
             this.gridColumn4.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn4.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn4.Caption = "Quantity";
+            this.gridColumn4.FieldName = "Quantity";
             this.gridColumn4.MinWidth = 25;
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
@@ -208,11 +206,10 @@
             // 
             // gridColumn5
             // 
-            this.gridColumn5.AppearanceCell.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gridColumn5.AppearanceCell.Options.UseFont = true;
             this.gridColumn5.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn5.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn5.Caption = "Unit Price";
+            this.gridColumn5.FieldName = "UnitPrice";
             this.gridColumn5.MinWidth = 25;
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
@@ -223,14 +220,27 @@
             // 
             this.gridColumn6.AppearanceCell.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn6.AppearanceCell.Options.UseFont = true;
-            this.gridColumn6.AppearanceHeader.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.gridColumn6.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
             this.gridColumn6.AppearanceHeader.Options.UseForeColor = true;
             this.gridColumn6.Caption = "Rented Date";
+            this.gridColumn6.FieldName = "RentedDate";
             this.gridColumn6.MinWidth = 25;
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 6;
             this.gridColumn6.Width = 94;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.AppearanceHeader.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.gridColumn8.AppearanceHeader.Options.UseForeColor = true;
+            this.gridColumn8.Caption = "Total Price";
+            this.gridColumn8.FieldName = "TotalPrice";
+            this.gridColumn8.MinWidth = 25;
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 7;
+            this.gridColumn8.Width = 94;
             // 
             // Root
             // 
@@ -264,7 +274,7 @@
             // 
             // layoutControlItem2
             // 
-            this.layoutControlItem2.Control = this.simpleButton1;
+            this.layoutControlItem2.Control = this.simpleButtonAddRent;
             this.layoutControlItem2.Location = new System.Drawing.Point(1053, 668);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(162, 44);
@@ -273,7 +283,7 @@
             // 
             // layoutControlItem3
             // 
-            this.layoutControlItem3.Control = this.simpleButton2;
+            this.layoutControlItem3.Control = this.simpleButtonReturned;
             this.layoutControlItem3.Location = new System.Drawing.Point(1053, 712);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(162, 44);
@@ -315,11 +325,12 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraLayout.LayoutControlGroup Root;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonAddRent;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem1;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButtonReturned;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
     }
 }
