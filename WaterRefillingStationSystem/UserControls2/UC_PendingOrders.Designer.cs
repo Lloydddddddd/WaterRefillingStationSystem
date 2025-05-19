@@ -39,6 +39,9 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -47,9 +50,6 @@
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -80,8 +80,10 @@
             // 
             // simpleButtonRemove
             // 
+            this.simpleButtonRemove.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonRemove.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonRemove.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonRemove.Appearance.Options.UseBackColor = true;
             this.simpleButtonRemove.Appearance.Options.UseFont = true;
             this.simpleButtonRemove.Appearance.Options.UseForeColor = true;
             this.simpleButtonRemove.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -97,17 +99,20 @@
             this.simpleButtonRemove.AppearancePressed.Options.UseFont = true;
             this.simpleButtonRemove.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonRemove.ImageOptions.Image")));
-            this.simpleButtonRemove.Location = new System.Drawing.Point(1018, 693);
+            this.simpleButtonRemove.Location = new System.Drawing.Point(1018, 678);
             this.simpleButtonRemove.Name = "simpleButtonRemove";
-            this.simpleButtonRemove.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonRemove.Padding = new System.Windows.Forms.Padding(5);
+            this.simpleButtonRemove.Size = new System.Drawing.Size(146, 48);
             this.simpleButtonRemove.StyleController = this.layoutControl1;
             this.simpleButtonRemove.TabIndex = 8;
             this.simpleButtonRemove.Text = "Remove";
             // 
             // simpleButtonViewDetails
             // 
+            this.simpleButtonViewDetails.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonViewDetails.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonViewDetails.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonViewDetails.Appearance.Options.UseBackColor = true;
             this.simpleButtonViewDetails.Appearance.Options.UseFont = true;
             this.simpleButtonViewDetails.Appearance.Options.UseForeColor = true;
             this.simpleButtonViewDetails.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -119,9 +124,10 @@
             this.simpleButtonViewDetails.AppearancePressed.Options.UseFont = true;
             this.simpleButtonViewDetails.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonViewDetails.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonViewDetails.ImageOptions.Image")));
-            this.simpleButtonViewDetails.Location = new System.Drawing.Point(16, 671);
+            this.simpleButtonViewDetails.Location = new System.Drawing.Point(16, 651);
             this.simpleButtonViewDetails.Name = "simpleButtonViewDetails";
-            this.simpleButtonViewDetails.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonViewDetails.Padding = new System.Windows.Forms.Padding(5);
+            this.simpleButtonViewDetails.Size = new System.Drawing.Size(146, 48);
             this.simpleButtonViewDetails.StyleController = this.layoutControl1;
             this.simpleButtonViewDetails.TabIndex = 6;
             this.simpleButtonViewDetails.Text = "View Details";
@@ -129,8 +135,10 @@
             // 
             // simpleButtonDelivered
             // 
+            this.simpleButtonDelivered.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonDelivered.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonDelivered.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonDelivered.Appearance.Options.UseBackColor = true;
             this.simpleButtonDelivered.Appearance.Options.UseFont = true;
             this.simpleButtonDelivered.Appearance.Options.UseForeColor = true;
             this.simpleButtonDelivered.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -142,9 +150,10 @@
             this.simpleButtonDelivered.AppearancePressed.Options.UseFont = true;
             this.simpleButtonDelivered.AppearancePressed.Options.UseForeColor = true;
             this.simpleButtonDelivered.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonDelivered.ImageOptions.Image")));
-            this.simpleButtonDelivered.Location = new System.Drawing.Point(16, 715);
+            this.simpleButtonDelivered.Location = new System.Drawing.Point(16, 705);
             this.simpleButtonDelivered.Name = "simpleButtonDelivered";
-            this.simpleButtonDelivered.Size = new System.Drawing.Size(146, 38);
+            this.simpleButtonDelivered.Padding = new System.Windows.Forms.Padding(5);
+            this.simpleButtonDelivered.Size = new System.Drawing.Size(146, 48);
             this.simpleButtonDelivered.StyleController = this.layoutControl1;
             this.simpleButtonDelivered.TabIndex = 5;
             this.simpleButtonDelivered.Text = "Delivered";
@@ -154,7 +163,7 @@
             this.gridControl1.Location = new System.Drawing.Point(16, 16);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1148, 649);
+            this.gridControl1.Size = new System.Drawing.Size(1148, 629);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -220,82 +229,6 @@
             this.gridColumn4.VisibleIndex = 3;
             this.gridColumn4.Width = 94;
             // 
-            // Root
-            // 
-            this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.Root.GroupBordersVisible = false;
-            this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem1,
-            this.layoutControlItem3,
-            this.emptySpaceItem4,
-            this.layoutControlItem2,
-            this.layoutControlItem5,
-            this.emptySpaceItem1,
-            this.emptySpaceItem2});
-            this.Root.Name = "Root";
-            this.Root.Size = new System.Drawing.Size(1180, 769);
-            this.Root.TextVisible = false;
-            // 
-            // layoutControlItem1
-            // 
-            this.layoutControlItem1.Control = this.gridControl1;
-            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1154, 655);
-            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem1.TextVisible = false;
-            // 
-            // layoutControlItem3
-            // 
-            this.layoutControlItem3.Control = this.simpleButtonViewDetails;
-            this.layoutControlItem3.Location = new System.Drawing.Point(0, 655);
-            this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(152, 44);
-            this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem3.TextVisible = false;
-            // 
-            // emptySpaceItem4
-            // 
-            this.emptySpaceItem4.AllowHotTrack = false;
-            this.emptySpaceItem4.Location = new System.Drawing.Point(152, 655);
-            this.emptySpaceItem4.Name = "emptySpaceItem4";
-            this.emptySpaceItem4.Size = new System.Drawing.Size(850, 88);
-            this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.Control = this.simpleButtonDelivered;
-            this.layoutControlItem2.Location = new System.Drawing.Point(0, 699);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(152, 44);
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem2.TextVisible = false;
-            // 
-            // layoutControlItem5
-            // 
-            this.layoutControlItem5.Control = this.simpleButtonRemove;
-            this.layoutControlItem5.Location = new System.Drawing.Point(1002, 677);
-            this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(152, 44);
-            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
-            this.layoutControlItem5.TextVisible = false;
-            // 
-            // emptySpaceItem1
-            // 
-            this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(1002, 655);
-            this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(152, 22);
-            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
-            // 
-            // emptySpaceItem2
-            // 
-            this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(1002, 721);
-            this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(152, 22);
-            this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
-            // 
             // gridColumn1
             // 
             this.gridColumn1.AppearanceHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(152)))), ((int)(((byte)(11)))));
@@ -328,6 +261,82 @@
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             this.gridColumn7.Width = 94;
+            // 
+            // Root
+            // 
+            this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
+            this.Root.GroupBordersVisible = false;
+            this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
+            this.layoutControlItem1,
+            this.layoutControlItem3,
+            this.emptySpaceItem4,
+            this.layoutControlItem2,
+            this.layoutControlItem5,
+            this.emptySpaceItem1,
+            this.emptySpaceItem2});
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(1180, 769);
+            this.Root.TextVisible = false;
+            // 
+            // layoutControlItem1
+            // 
+            this.layoutControlItem1.Control = this.gridControl1;
+            this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
+            this.layoutControlItem1.Name = "layoutControlItem1";
+            this.layoutControlItem1.Size = new System.Drawing.Size(1154, 635);
+            this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem1.TextVisible = false;
+            // 
+            // layoutControlItem3
+            // 
+            this.layoutControlItem3.Control = this.simpleButtonViewDetails;
+            this.layoutControlItem3.Location = new System.Drawing.Point(0, 635);
+            this.layoutControlItem3.Name = "layoutControlItem3";
+            this.layoutControlItem3.Size = new System.Drawing.Size(152, 54);
+            this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem3.TextVisible = false;
+            // 
+            // emptySpaceItem4
+            // 
+            this.emptySpaceItem4.AllowHotTrack = false;
+            this.emptySpaceItem4.Location = new System.Drawing.Point(152, 635);
+            this.emptySpaceItem4.Name = "emptySpaceItem4";
+            this.emptySpaceItem4.Size = new System.Drawing.Size(850, 108);
+            this.emptySpaceItem4.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // layoutControlItem2
+            // 
+            this.layoutControlItem2.Control = this.simpleButtonDelivered;
+            this.layoutControlItem2.Location = new System.Drawing.Point(0, 689);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(152, 54);
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem2.TextVisible = false;
+            // 
+            // layoutControlItem5
+            // 
+            this.layoutControlItem5.Control = this.simpleButtonRemove;
+            this.layoutControlItem5.Location = new System.Drawing.Point(1002, 662);
+            this.layoutControlItem5.Name = "layoutControlItem5";
+            this.layoutControlItem5.Size = new System.Drawing.Size(152, 54);
+            this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
+            this.layoutControlItem5.TextVisible = false;
+            // 
+            // emptySpaceItem1
+            // 
+            this.emptySpaceItem1.AllowHotTrack = false;
+            this.emptySpaceItem1.Location = new System.Drawing.Point(1002, 635);
+            this.emptySpaceItem1.Name = "emptySpaceItem1";
+            this.emptySpaceItem1.Size = new System.Drawing.Size(152, 27);
+            this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
+            // 
+            // emptySpaceItem2
+            // 
+            this.emptySpaceItem2.AllowHotTrack = false;
+            this.emptySpaceItem2.Location = new System.Drawing.Point(1002, 716);
+            this.emptySpaceItem2.Name = "emptySpaceItem2";
+            this.emptySpaceItem2.Size = new System.Drawing.Size(152, 27);
+            this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // UC_PendingOrders
             // 
