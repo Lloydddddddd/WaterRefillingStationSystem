@@ -55,6 +55,7 @@ namespace WaterRefillingStationSystem.Forms2
                     //Store the processed customer data in a typed list
                     processedData.Add(new Customers
                     {
+                        CustomerID = c.CustomerID,
                         FullName = fullName,
                         ContactNumber = c.ContactNumber,
                         Address = c.Address
