@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.accordionControl1 = new DevExpress.XtraBars.Navigation.AccordionControl();
             this.POStab = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.aciDashboard = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciNewSale = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciPendingOrders = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator1 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciStationSupplies = new DevExpress.XtraBars.Navigation.AccordionControlElement();
@@ -41,12 +41,9 @@
             this.accordionControlElement9 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciCustomerList = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciCustomerDebt = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciRentedDispensers = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator3 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement12 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.aciSalesReport = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciInventoryReport = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.aciCustomerReport = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlSeparator4 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.aciLogout = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.panelBody = new DevExpress.XtraEditors.PanelControl();
@@ -85,13 +82,14 @@
             this.POStab});
             this.accordionControl1.Location = new System.Drawing.Point(0, 0);
             this.accordionControl1.Name = "accordionControl1";
-            this.accordionControl1.Size = new System.Drawing.Size(301, 731);
+            this.accordionControl1.Size = new System.Drawing.Size(301, 765);
             this.accordionControl1.TabIndex = 0;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
             // POStab
             // 
             this.POStab.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
+            this.aciDashboard,
             this.accordionControlElement2,
             this.accordionControlElement1,
             this.accordionControlSeparator2,
@@ -105,11 +103,18 @@
             this.POStab.Name = "POStab";
             this.POStab.Text = "POS";
             // 
+            // aciDashboard
+            // 
+            this.aciDashboard.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("aciDashboard.ImageOptions.Image")));
+            this.aciDashboard.Name = "aciDashboard";
+            this.aciDashboard.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.aciDashboard.Text = "Dashboard";
+            this.aciDashboard.Click += new System.EventHandler(this.aciDashboard_Click);
+            // 
             // accordionControlElement2
             // 
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciNewSale,
-            this.aciPendingOrders,
             this.accordionControlSeparator1});
             this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement2.ImageOptions.Image")));
@@ -122,13 +127,6 @@
             this.aciNewSale.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciNewSale.Text = "New Sale";
             this.aciNewSale.Click += new System.EventHandler(this.aciNewSale_Click);
-            // 
-            // aciPendingOrders
-            // 
-            this.aciPendingOrders.Name = "aciPendingOrders";
-            this.aciPendingOrders.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciPendingOrders.Text = "Pending Orders";
-            this.aciPendingOrders.Click += new System.EventHandler(this.aciPendingOrders_Click);
             // 
             // accordionControlSeparator1
             // 
@@ -158,8 +156,7 @@
             // 
             this.accordionControlElement9.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciCustomerList,
-            this.aciCustomerDebt,
-            this.aciRentedDispensers});
+            this.aciCustomerDebt});
             this.accordionControlElement9.Expanded = true;
             this.accordionControlElement9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement9.ImageOptions.Image")));
             this.accordionControlElement9.Name = "accordionControlElement9";
@@ -184,13 +181,6 @@
             this.aciCustomerDebt.Text = "Customer Debt";
             this.aciCustomerDebt.Click += new System.EventHandler(this.aciCustomerDebt_Click);
             // 
-            // aciRentedDispensers
-            // 
-            this.aciRentedDispensers.Name = "aciRentedDispensers";
-            this.aciRentedDispensers.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciRentedDispensers.Text = "Rented Dispensers";
-            this.aciRentedDispensers.Click += new System.EventHandler(this.aciRentedDispensers_Click);
-            // 
             // accordionControlSeparator3
             // 
             this.accordionControlSeparator3.Name = "accordionControlSeparator3";
@@ -198,9 +188,7 @@
             // accordionControlElement12
             // 
             this.accordionControlElement12.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.aciSalesReport,
-            this.aciInventoryReport,
-            this.aciCustomerReport});
+            this.aciSalesReport});
             this.accordionControlElement12.Expanded = true;
             this.accordionControlElement12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement12.ImageOptions.Image")));
             this.accordionControlElement12.Name = "accordionControlElement12";
@@ -212,18 +200,6 @@
             this.aciSalesReport.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciSalesReport.Text = "Sales Report";
             this.aciSalesReport.Click += new System.EventHandler(this.aciSalesReport_Click);
-            // 
-            // aciInventoryReport
-            // 
-            this.aciInventoryReport.Name = "aciInventoryReport";
-            this.aciInventoryReport.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciInventoryReport.Text = "Inventory Report";
-            // 
-            // aciCustomerReport
-            // 
-            this.aciCustomerReport.Name = "aciCustomerReport";
-            this.aciCustomerReport.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.aciCustomerReport.Text = "Customer Report";
             // 
             // accordionControlSeparator4
             // 
@@ -244,14 +220,14 @@
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelBody.Location = new System.Drawing.Point(301, 0);
             this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(858, 731);
+            this.panelBody.Size = new System.Drawing.Size(944, 765);
             this.panelBody.TabIndex = 1;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1159, 731);
+            this.ClientSize = new System.Drawing.Size(1245, 765);
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.accordionControl1);
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("MainForm.IconOptions.Image")));
@@ -271,7 +247,6 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement POStab;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement2;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciNewSale;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciPendingOrders;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciStationSupplies;
@@ -281,12 +256,10 @@
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator3;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement12;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciSalesReport;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciInventoryReport;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciCustomerReport;
         private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator4;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciLogout;
         private DevExpress.XtraBars.Navigation.AccordionControlElement aciCustomerDebt;
         public DevExpress.XtraEditors.PanelControl panelBody;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement aciRentedDispensers;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement aciDashboard;
     }
 }
