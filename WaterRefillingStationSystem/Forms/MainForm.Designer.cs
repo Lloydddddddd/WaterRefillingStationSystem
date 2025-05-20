@@ -88,6 +88,8 @@
             // 
             // POStab
             // 
+            this.POStab.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 13.77391F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.POStab.Appearance.Default.Options.UseFont = true;
             this.POStab.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciDashboard,
             this.accordionControlElement2,
@@ -102,9 +104,12 @@
             this.POStab.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("POStab.ImageOptions.Image")));
             this.POStab.Name = "POStab";
             this.POStab.Text = "POS";
+            this.POStab.Click += new System.EventHandler(this.POStab_Click);
             // 
             // aciDashboard
             // 
+            this.aciDashboard.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aciDashboard.Appearance.Default.Options.UseFont = true;
             this.aciDashboard.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("aciDashboard.ImageOptions.Image")));
             this.aciDashboard.Name = "aciDashboard";
             this.aciDashboard.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
@@ -113,6 +118,8 @@
             // 
             // accordionControlElement2
             // 
+            this.accordionControlElement2.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F);
+            this.accordionControlElement2.Appearance.Default.Options.UseFont = true;
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciNewSale,
             this.accordionControlSeparator1});
@@ -123,6 +130,8 @@
             // 
             // aciNewSale
             // 
+            this.aciNewSale.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F);
+            this.aciNewSale.Appearance.Default.Options.UseFont = true;
             this.aciNewSale.Name = "aciNewSale";
             this.aciNewSale.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciNewSale.Text = "New Sale";
@@ -134,6 +143,8 @@
             // 
             // accordionControlElement1
             // 
+            this.accordionControlElement1.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F);
+            this.accordionControlElement1.Appearance.Default.Options.UseFont = true;
             this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciStationSupplies});
             this.accordionControlElement1.Expanded = true;
@@ -143,6 +154,8 @@
             // 
             // aciStationSupplies
             // 
+            this.aciStationSupplies.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F);
+            this.aciStationSupplies.Appearance.Default.Options.UseFont = true;
             this.aciStationSupplies.Name = "aciStationSupplies";
             this.aciStationSupplies.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciStationSupplies.Text = "Station Supplies";
@@ -154,6 +167,8 @@
             // 
             // accordionControlElement9
             // 
+            this.accordionControlElement9.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F);
+            this.accordionControlElement9.Appearance.Default.Options.UseFont = true;
             this.accordionControlElement9.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciCustomerList,
             this.aciCustomerDebt});
@@ -164,6 +179,8 @@
             // 
             // aciCustomerList
             // 
+            this.aciCustomerList.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F);
+            this.aciCustomerList.Appearance.Default.Options.UseFont = true;
             this.aciCustomerList.HeaderTemplate.AddRange(new DevExpress.XtraBars.Navigation.HeaderElementInfo[] {
             new DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Text),
             new DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Image),
@@ -176,6 +193,8 @@
             // 
             // aciCustomerDebt
             // 
+            this.aciCustomerDebt.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F);
+            this.aciCustomerDebt.Appearance.Default.Options.UseFont = true;
             this.aciCustomerDebt.Name = "aciCustomerDebt";
             this.aciCustomerDebt.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciCustomerDebt.Text = "Customer Debt";
@@ -187,6 +206,8 @@
             // 
             // accordionControlElement12
             // 
+            this.accordionControlElement12.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement12.Appearance.Default.Options.UseFont = true;
             this.accordionControlElement12.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.aciSalesReport});
             this.accordionControlElement12.Expanded = true;
@@ -196,6 +217,8 @@
             // 
             // aciSalesReport
             // 
+            this.aciSalesReport.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.26957F);
+            this.aciSalesReport.Appearance.Default.Options.UseFont = true;
             this.aciSalesReport.Name = "aciSalesReport";
             this.aciSalesReport.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.aciSalesReport.Text = "Sales Report";
@@ -207,6 +230,8 @@
             // 
             // aciLogout
             // 
+            this.aciLogout.Appearance.Default.Font = new System.Drawing.Font("Segoe UI Variable Small", 11.89565F);
+            this.aciLogout.Appearance.Default.Options.UseFont = true;
             this.aciLogout.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("aciLogout.ImageOptions.Image")));
             this.aciLogout.Name = "aciLogout";
             this.aciLogout.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;

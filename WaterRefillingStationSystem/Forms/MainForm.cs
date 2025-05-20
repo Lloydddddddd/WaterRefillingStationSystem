@@ -156,5 +156,10 @@ namespace WaterRefillingStationSystem.Forms
                 Application.Exit();
             }
         }
+
+        private void POStab_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
