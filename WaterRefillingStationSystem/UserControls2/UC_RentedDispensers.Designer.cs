@@ -73,8 +73,10 @@
             // 
             // simpleButtonReturned
             // 
+            this.simpleButtonReturned.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonReturned.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonReturned.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonReturned.Appearance.Options.UseBackColor = true;
             this.simpleButtonReturned.Appearance.Options.UseFont = true;
             this.simpleButtonReturned.Appearance.Options.UseForeColor = true;
             this.simpleButtonReturned.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -85,18 +87,21 @@
             this.simpleButtonReturned.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonReturned.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonReturned.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButtonReturned.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButtonReturned.Location = new System.Drawing.Point(1069, 728);
+            this.simpleButtonReturned.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonReturned.ImageOptions.Image")));
+            this.simpleButtonReturned.Location = new System.Drawing.Point(1069, 718);
             this.simpleButtonReturned.Name = "simpleButtonReturned";
-            this.simpleButtonReturned.Size = new System.Drawing.Size(156, 38);
+            this.simpleButtonReturned.Padding = new System.Windows.Forms.Padding(5);
+            this.simpleButtonReturned.Size = new System.Drawing.Size(156, 48);
             this.simpleButtonReturned.StyleController = this.layoutControl1;
             this.simpleButtonReturned.TabIndex = 6;
             this.simpleButtonReturned.Text = "Returned";
             // 
             // simpleButtonAddRent
             // 
+            this.simpleButtonAddRent.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(160)))), ((int)(((byte)(196)))));
             this.simpleButtonAddRent.Appearance.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonAddRent.Appearance.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.simpleButtonAddRent.Appearance.Options.UseBackColor = true;
             this.simpleButtonAddRent.Appearance.Options.UseFont = true;
             this.simpleButtonAddRent.Appearance.Options.UseForeColor = true;
             this.simpleButtonAddRent.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
@@ -107,10 +112,11 @@
             this.simpleButtonAddRent.AppearancePressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
             this.simpleButtonAddRent.AppearancePressed.Options.UseBackColor = true;
             this.simpleButtonAddRent.AppearancePressed.Options.UseForeColor = true;
-            this.simpleButtonAddRent.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButtonAddRent.Location = new System.Drawing.Point(1069, 684);
+            this.simpleButtonAddRent.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonAddRent.ImageOptions.Image")));
+            this.simpleButtonAddRent.Location = new System.Drawing.Point(1069, 664);
             this.simpleButtonAddRent.Name = "simpleButtonAddRent";
-            this.simpleButtonAddRent.Size = new System.Drawing.Size(156, 38);
+            this.simpleButtonAddRent.Padding = new System.Windows.Forms.Padding(5);
+            this.simpleButtonAddRent.Size = new System.Drawing.Size(156, 48);
             this.simpleButtonAddRent.StyleController = this.layoutControl1;
             this.simpleButtonAddRent.TabIndex = 5;
             this.simpleButtonAddRent.Text = "Add Rent";
@@ -121,7 +127,7 @@
             this.gridControl1.Location = new System.Drawing.Point(16, 16);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1209, 662);
+            this.gridControl1.Size = new System.Drawing.Size(1209, 642);
             this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -260,33 +266,33 @@
             this.layoutControlItem1.Control = this.gridControl1;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(1215, 668);
+            this.layoutControlItem1.Size = new System.Drawing.Size(1215, 648);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
             // emptySpaceItem1
             // 
             this.emptySpaceItem1.AllowHotTrack = false;
-            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 668);
+            this.emptySpaceItem1.Location = new System.Drawing.Point(0, 648);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(1053, 88);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(1053, 108);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
             // 
             this.layoutControlItem2.Control = this.simpleButtonAddRent;
-            this.layoutControlItem2.Location = new System.Drawing.Point(1053, 668);
+            this.layoutControlItem2.Location = new System.Drawing.Point(1053, 648);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(162, 44);
+            this.layoutControlItem2.Size = new System.Drawing.Size(162, 54);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.simpleButtonReturned;
-            this.layoutControlItem3.Location = new System.Drawing.Point(1053, 712);
+            this.layoutControlItem3.Location = new System.Drawing.Point(1053, 702);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(162, 44);
+            this.layoutControlItem3.Size = new System.Drawing.Size(162, 54);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
