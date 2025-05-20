@@ -83,10 +83,10 @@
             this.simpleButtonRemove.Appearance.Options.UseFont = true;
             this.simpleButtonRemove.Appearance.Options.UseForeColor = true;
             this.simpleButtonRemove.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonRemove.ImageOptions.Image")));
-            this.simpleButtonRemove.Location = new System.Drawing.Point(876, 668);
+            this.simpleButtonRemove.Location = new System.Drawing.Point(871, 668);
             this.simpleButtonRemove.Name = "simpleButtonRemove";
             this.simpleButtonRemove.Padding = new System.Windows.Forms.Padding(5);
-            this.simpleButtonRemove.Size = new System.Drawing.Size(162, 48);
+            this.simpleButtonRemove.Size = new System.Drawing.Size(167, 48);
             this.simpleButtonRemove.StyleController = this.layoutControl1;
             this.simpleButtonRemove.TabIndex = 7;
             this.simpleButtonRemove.Text = "Remove";
@@ -101,10 +101,10 @@
             this.simpleButtonManageStock.Appearance.Options.UseFont = true;
             this.simpleButtonManageStock.Appearance.Options.UseForeColor = true;
             this.simpleButtonManageStock.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButtonManageStock.ImageOptions.Image")));
-            this.simpleButtonManageStock.Location = new System.Drawing.Point(876, 614);
+            this.simpleButtonManageStock.Location = new System.Drawing.Point(871, 614);
             this.simpleButtonManageStock.Name = "simpleButtonManageStock";
             this.simpleButtonManageStock.Padding = new System.Windows.Forms.Padding(5);
-            this.simpleButtonManageStock.Size = new System.Drawing.Size(162, 48);
+            this.simpleButtonManageStock.Size = new System.Drawing.Size(167, 48);
             this.simpleButtonManageStock.StyleController = this.layoutControl1;
             this.simpleButtonManageStock.TabIndex = 6;
             this.simpleButtonManageStock.Text = "Manage Stock";
@@ -122,7 +122,7 @@
             this.simpleButtonAddNewItem.Location = new System.Drawing.Point(16, 640);
             this.simpleButtonAddNewItem.Name = "simpleButtonAddNewItem";
             this.simpleButtonAddNewItem.Padding = new System.Windows.Forms.Padding(5);
-            this.simpleButtonAddNewItem.Size = new System.Drawing.Size(168, 48);
+            this.simpleButtonAddNewItem.Size = new System.Drawing.Size(169, 48);
             this.simpleButtonAddNewItem.StyleController = this.layoutControl1;
             this.simpleButtonAddNewItem.TabIndex = 5;
             this.simpleButtonAddNewItem.Text = "Add New Item";
@@ -153,6 +153,7 @@
             this.gridView1.GridControl = this.gridControlStationSupplies;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsCustomization.AllowColumnResizing = false;
             // 
             // gridColumn2
             // 
@@ -226,9 +227,9 @@
             // emptySpaceItem2
             // 
             this.emptySpaceItem2.AllowHotTrack = false;
-            this.emptySpaceItem2.Location = new System.Drawing.Point(174, 598);
+            this.emptySpaceItem2.Location = new System.Drawing.Point(175, 598);
             this.emptySpaceItem2.Name = "emptySpaceItem2";
-            this.emptySpaceItem2.Size = new System.Drawing.Size(686, 108);
+            this.emptySpaceItem2.Size = new System.Drawing.Size(680, 108);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem2
@@ -236,25 +237,25 @@
             this.layoutControlItem2.Control = this.simpleButtonAddNewItem;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 624);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(174, 54);
+            this.layoutControlItem2.Size = new System.Drawing.Size(175, 54);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
             // 
             // layoutControlItem3
             // 
             this.layoutControlItem3.Control = this.simpleButtonManageStock;
-            this.layoutControlItem3.Location = new System.Drawing.Point(860, 598);
+            this.layoutControlItem3.Location = new System.Drawing.Point(855, 598);
             this.layoutControlItem3.Name = "layoutControlItem3";
-            this.layoutControlItem3.Size = new System.Drawing.Size(168, 54);
+            this.layoutControlItem3.Size = new System.Drawing.Size(173, 54);
             this.layoutControlItem3.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem3.TextVisible = false;
             // 
             // layoutControlItem4
             // 
             this.layoutControlItem4.Control = this.simpleButtonRemove;
-            this.layoutControlItem4.Location = new System.Drawing.Point(860, 652);
+            this.layoutControlItem4.Location = new System.Drawing.Point(855, 652);
             this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(168, 54);
+            this.layoutControlItem4.Size = new System.Drawing.Size(173, 54);
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
             // 
@@ -263,7 +264,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 598);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(174, 26);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(175, 26);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // emptySpaceItem3
@@ -271,7 +272,7 @@
             this.emptySpaceItem3.AllowHotTrack = false;
             this.emptySpaceItem3.Location = new System.Drawing.Point(0, 678);
             this.emptySpaceItem3.Name = "emptySpaceItem3";
-            this.emptySpaceItem3.Size = new System.Drawing.Size(174, 28);
+            this.emptySpaceItem3.Size = new System.Drawing.Size(175, 28);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
             // UC_StationSupplies
