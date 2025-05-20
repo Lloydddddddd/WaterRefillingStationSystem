@@ -219,12 +219,6 @@
     <Compile Include="UserControls2\UC_PendingOrders.Designer.cs">
       <DependentUpon>UC_PendingOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls2\UC_TransactionHistory.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls2\UC_TransactionHistory.Designer.cs">
-      <DependentUpon>UC_TransactionHistory.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,9 +272,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls2\UC_PendingOrders.resx">
       <DependentUpon>UC_PendingOrders.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls2\UC_TransactionHistory.resx">
-      <DependentUpon>UC_TransactionHistory.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />
