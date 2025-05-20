@@ -24,7 +24,7 @@ namespace WaterRefillingStationSystem.Forms2
         }
         private void SetLatestOrderDate()
         {
-            labelOrderDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            //labelOrderDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
     }
 }
