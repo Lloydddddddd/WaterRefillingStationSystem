@@ -275,6 +275,7 @@
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\WaterRefillingStationSystem.Models.CustomerDebt.datasource" />
     <None Include="Properties\DataSources\WaterRefillingStationSystem.Models.SalesDetails.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
