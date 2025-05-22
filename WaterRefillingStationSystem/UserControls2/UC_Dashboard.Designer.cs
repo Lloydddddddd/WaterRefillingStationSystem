@@ -111,6 +111,7 @@
             this.Controls.Add(this.layoutControl1);
             this.Name = "UC_Dashboard";
             this.Size = new System.Drawing.Size(1170, 743);
+            this.Load += new System.EventHandler(this.UC_Dashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
