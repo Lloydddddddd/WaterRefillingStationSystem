@@ -12,7 +12,7 @@ namespace WaterRefillingStationSystem.Repositories
 {
     public class CustomerDebtRepository : ICustomerDebtRepository
     {
-        private string _connectionString = @"Data Source=C:\Users\krist\OneDrive\Desktop\OOP Programming\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
+        private string _connectionString = @"Data Source=C:\Users\Admin\source\repos\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
 
         public void AddDebtRecord(CustomerDebt debtRecord)
         {

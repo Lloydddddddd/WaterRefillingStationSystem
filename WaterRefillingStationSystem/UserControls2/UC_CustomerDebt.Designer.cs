@@ -239,11 +239,7 @@
             this.simpleButtonPaid.Appearance.Options.UseBackColor = true;
             this.simpleButtonPaid.Appearance.Options.UseFont = true;
             this.simpleButtonPaid.Appearance.Options.UseForeColor = true;
-            this.simpleButtonPaid.AppearanceHovered.BackColor = System.Drawing.Color.DarkGray;
-            this.simpleButtonPaid.AppearanceHovered.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButtonPaid.AppearanceHovered.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
-            this.simpleButtonPaid.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButtonPaid.AppearanceHovered.Options.UseFont = true;
             this.simpleButtonPaid.AppearanceHovered.Options.UseForeColor = true;
             this.simpleButtonPaid.AppearancePressed.BackColor = System.Drawing.Color.Gray;
             this.simpleButtonPaid.AppearancePressed.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

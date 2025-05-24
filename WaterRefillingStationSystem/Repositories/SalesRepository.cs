@@ -12,7 +12,7 @@ namespace WaterRefillingStationSystem.Repositories
 {
     public class SaleRepository : ISaleRepository
     {
-        private readonly string _connectionString = @"Data Source=C:\Users\krist\OneDrive\Desktop\OOP Programming\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
+        private readonly string _connectionString = @"Data Source=C:\Users\Admin\source\repos\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
 
         public void AddSale(string orderType, string itemName, int quantity, int unitPrice, int totalPrice, DateTime orderDate)
         {

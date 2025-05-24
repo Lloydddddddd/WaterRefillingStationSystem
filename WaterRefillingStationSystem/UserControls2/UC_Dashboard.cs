@@ -16,7 +16,7 @@ namespace WaterRefillingStationSystem.UserControls2
 {
     public partial class UC_Dashboard : DevExpress.XtraEditors.XtraUserControl
     {
-        private string _connectionString = @"Data Source=C:\Users\krist\OneDrive\Desktop\OOP Programming\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
+        private string _connectionString = @"Data Source=C:\Users\Admin\source\repos\WaterRefillingStationSystem\WaterRefillingStationSystemDB.db;Version=3;";
         public UC_Dashboard()
         {
             InitializeComponent();
